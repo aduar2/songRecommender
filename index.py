@@ -1,4 +1,4 @@
-from flask import Flask, url_for, render_newfolder, request
+from flask import Flask, url_for, render_template, request
 
 app = Flask(__name__) #__name__ = "__main__" if this is the file that was run.  Otherwise, it is the name of the file (ex. webapp)
 
@@ -374,7 +374,9 @@ def render_result():
     
 
 	for x in songs[taste]:
-		basicReply = "You might like " + songs[taste][x]["song"] + " by " + songs[taste][x]["artist"]
+		songRec = songs[taste][x]["song"]
+		artistRec = songs[taste][x]["artist"]
+		basicReply = "You might like " + songRec + " by " + artistRec
 		
 	if element == "none":
 		result = basicReply
@@ -385,16 +387,15 @@ def render_result():
 			if artistSign.find(sign) >= 0:
 				#send something to the result page. this is same sign
 				if artistSign == "aquarius" or artistSign == "aries":
-					reply = "You might like this song, which is by an artist who is also an  " + sign + " : "+ songs[taste][x]["song"] + " by " + songs[x]["artist"]
+					reply = "You might like this song, which is by an artist who is also an  " + sign + " : "+ songRec + " by " + artistRec
 				else:
-					reply = "You might like this song, which is by an artist who is also a " + sign + " : "+ songs[taste][x]["song"] + " by " + songs[taste][x]["artist"]
+					reply = "You might like this song, which is by an artist who is also a " + sign + " : "+ songRec + " by " + artistRec
 				
 			else:
 				if element == "earth" or element == "air":
-					reply = "This song is by an artist who also has an " + element + " sign: "+ songs[taste][x]["song"] + " by " + songs[taste][x]["artist"]
+					reply = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
 				else:
-					reply = "This song is by an artist who also has a " + element + " sign: "+ songs[taste][x]["song"] + " by " + songs[taste][x]["artist"]
-					#also send soething to the result page. this is same element diff sign
+					reply = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
 		else:
 			reply = basicReply
     		#ALSO sent to results page. this is absolutle yno zodiac connection
