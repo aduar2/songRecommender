@@ -4,17 +4,17 @@ app = Flask(__name__) #__name__ = "__main__" if this is the file that was run.  
 
 @app.route("/")
 def render_main():
-    return render_newfolder('home.html')
+	return render_template('home.html')
 
 
-@app.route("/response")
+@app.route("/result")
 def render_result():
-    genre = request.args['genre']
-    artist = request.args['artist']
-    era = request.args['era']
-    sign = request.args['sign']
-    
-    if sign == "leo" or "aries" or "sagittarius"
+	genre = request.args['genre']
+	artist = request.args['artist']
+	era = request.args['era']
+	sign = request.args['sign']
+	
+	if sign == "leo" or "aries" or "sagittarius"
 		element = "fire"
 	else if sign == "pisces" or "cancer" or "scorpio"
 		element = "water"
@@ -22,13 +22,18 @@ def render_result():
 		element = "earth"
 	else if sign == "aquarius" or "gemini" or "libra"
 		element = "air"
-    else
-    	element = "none"
+	else
+		element = "none"
+		
+	genre = genre.casefold
+	artist = artist.casefold
+	era = era.casefold
+	sign = sign.casefold
 
     #set variables from input. use sring methods to rid of whitespace and capitals :)
     
-songs = {
-	"2010s rock": {
+	songs = {
+		"2010s rock": {
 		"song1": {
 			"song": "Sweetie Little Jean",
 			"artist": "Cage the Elephant",
@@ -351,37 +356,28 @@ songs = {
 	
 
 	#create and set element variables
-if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
-	element = "fire"
-elif sign.find("pisces") == 0 or sign.find("cancer") == 0 or sign.find("scorpio") == 0:
-	element = "water"
-elif sign.find("taurus") == 0 or sign.find("capricorn") == 0 or sign.find("virgo") == 0:
-	element = "earth"
-elif sign.find("aquarius") == 0 or sign.find("gemini") == 0 or sign.find("libra") == 0:
-	element = "air"
-else:
-	element = "none"
+	if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
+		element = "fire"
+	elif sign.find("pisces") == 0 or sign.find("cancer") == 0 or sign.find("scorpio") == 0:
+		element = "water"
+	elif sign.find("taurus") == 0 or sign.find("capricorn") == 0 or sign.find("virgo") == 0:
+		element = "earth"
+	elif sign.find("aquarius") == 0 or sign.find("gemini") == 0 or sign.find("libra") == 0:
+		element = "air"
+	else:
+		element = "none"
     
-print(sign)
-    
-print(element)
+
     
     #create and set taste, which is name of dictionary values
-taste = era + " " + genre
-    
-print(taste)
-
-
+	taste = era + " " + genre
     
 
-for x in songs[taste]:
-	basicReply = "You might like " + songs[taste][x]["song"] + " by " + songs[taste][x]["artist"]
-	#songName = songs[x]["song"]
-	#artistName = songs[x]["artist"]
-	#basicReply = "You might like " + songName + " by " + artistName
-	
+	for x in songs[taste]:
+		basicReply = "You might like " + songs[taste][x]["song"] + " by " + songs[taste][x]["artist"]
+		
 	if element == "none":
-		reply = basicReply
+		result = basicReply
 	else:
 		artistElem = songs[taste][x]["Type"]
 		artistSign = songs[taste][x]["Sign"]
@@ -403,8 +399,7 @@ for x in songs[taste]:
 			reply = basicReply
     		#ALSO sent to results page. this is absolutle yno zodiac connection
     		
-    		 return render_template('result.html', result = reply)
+	return render_template('result.html', result = reply)
     
 if __name__=="__main__":
-app.run(debug=True, port=54321)
-    		
+	app.run(debug=True, port=54321)
