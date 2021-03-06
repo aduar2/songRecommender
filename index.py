@@ -29,9 +29,8 @@ def render_result():
 	artist = artist.casefold
 	era = era.casefold
 	sign = sign.casefold
-
-    #set variables from input. use sring methods to rid of whitespace and capitals :)
-    
+	
+	#set variables from input. use sring methods to rid of whitespace and capitals :)
 	songs = {
 		"2010s rock": {
 		"song1": {
@@ -39,55 +38,54 @@ def render_result():
 			"artist": "Cage the Elephant",
 			"Sign": "scorpio",
 			"Type": "water"
-		 },
-		 "song2": {
-			 "song": "R U Mine?",
-		 	"artist": "Arctic Monkeys",
-			 "Sign": "capricorn",
-			 "Type": "earth"
-		 },
-		 "song3": {
-			 "song": "Dead and Gone",
-		 	"artist": "The Black Keys",
-			 "Sign": "taurus, aries",
-			 "Type": "earth, fire"
-		 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		},
+		"song2": {
+			"song": "R U Mine?",
+			"artist": "Arctic Monkeys",
+			"Sign": "capricorn",
+			"Type": "earth"
+		},
+		"song3": {
+			"song": "Dead and Gone",
+			"artist": "The Black Keys",
+			"Sign": "taurus, aries",
+			"Type": "earth, fire"
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
 			"Sign": "",
-		 	"Type": ""
-		 }
+			"Type": ""
+		}
 	},
-	
-	
+		
+		
 	"current pop": {
 		"song1": {
 			"song": "Test Drive",
 			"artist": "Ariana Grande",
 			"Sign": "cancer",
 			"Type": "water"
-		 },
-		 "song2": {
-		 	"song": "Watermelon Sugar",
-		 	"artist": "Harry Styles",
-		 	"Sign": "aquarius",
-		 	"Type": "air"
-		 },
-		 "song3": {
-			 "song": "",
-		 	"artist": "",
-			 "Sign": "",
-			 "Type": ""
-		 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
-			"Sign": "",
-		 	"Type": ""
-		 }
 		},
-		 
+		"song2": {
+			"song": "Watermelon Sugar",
+			"artist": "Harry Styles",
+			"Sign": "aquarius",
+			"Type": "air"
+		},
+		"song3": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
+		},
 	
 	"90s rock": {
 		"song1": {
@@ -96,25 +94,24 @@ def render_result():
 			"Sign": "pisces",
 			"Type": "water"
 		},
-		 "song2": {
-		 	"song": "",
-		 	"artist": "Hole",
-		 	"Sign": "cancer",
-		 	"Type": "water"
-		 },
-		 "song3": {
-			 "song": "",
-		 	"artist": "Pavement?",
-			 "Sign": "",
-			 "Type": ""
+		"song2": {
+			"song": "",
+			"artist": "Hole",
+			"Sign": "cancer",
+			"Type": "water"
 		},
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		"song3": {
+			"song": "",
+			"artist": "Pavement?",
 			"Sign": "",
-		 	"Type": ""
-		 
-		 }
+			"Type": ""
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
 		},
 			
 	
@@ -124,27 +121,26 @@ def render_result():
 			"artist": "Beach Bunny",
 			"Sign": "",
 			"Type": ""
-		 },
-		 "song2": {
-		 	"song": "",
-		 	"artist": "Greta Van Fleet",
-		 	"Sign": "",
-		 	"Type": ""
-		 },
-		 "song3": {
-		 	"song": "The Adults are Talking",
-		 	"artist": "The Strokes",
-		 	"Sign": "taurus",
-		 	"Type": "earth"
-		 },
-		 
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		},
+		"song2": {
+			"song": "",
+			"artist": "Greta Van Fleet",
 			"Sign": "",
-		 	"Type": ""
-		 
-		 }
+			"Type": ""
+		},
+		"song3": {
+			"song": "The Adults are Talking",
+			"artist": "The Strokes",
+			"Sign": "taurus",
+			"Type": "earth"
+		},
+		
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
 		
 		},
 	
@@ -155,26 +151,25 @@ def render_result():
 			"artist": "Kid Cudi",
 			"Sign": "",
 			"Type": ""
-		 },
-		 "song2": {
-		 	"song": "",
-		 	"artist": "Kanye West",
-		 	"Sign": "",
-		 	"Type": ""
-		 },
-		 "song3": {
-			 "song": "",
-		 	"artist": "",
-			 "Sign": "",
-			 "Type": ""
-		 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		},
+		"song2": {
+			"song": "",
+			"artist": "Kanye West",
 			"Sign": "",
-		 	"Type": ""
-		 
-		 }
+			"Type": ""
+		},
+		"song3": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
 		
 		},
 
@@ -185,25 +180,25 @@ def render_result():
 			"artist": "Grizzly Bear",
 			"Sign": "libra",
 			"Type": "air"
-		 },
-		 "song2": {
-		 	"song": "1901",
-		 	"artist": "Pheonix",
-		 	"Sign": "scorpio",
-		 	"Type": "water"
-		 },
-		 "song3": {
-			 "song": "",
-		 	"artist": "",
-			 "Sign": "",
-			 "Type": ""
-		 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		},
+		"song2": {
+			"song": "1901",
+			"artist": "Pheonix",
+			"Sign": "scorpio",
+			"Type": "water"
+		},
+		"song3": {
+			"song": "",
+			"artist": "",
 			"Sign": "",
-		 	"Type": ""
-		 }
+			"Type": ""
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
 		},
 	
 	
@@ -213,26 +208,25 @@ def render_result():
 			"artist": "Foxygen",
 			"Sign": "",
 			"Type": ""
-		 },
-		 "song2": {
-		 	"song": "",
-		 	"artist": "",
-		 	"Sign": "",
-		 	"Type": ""
-		 },
-		 "song3": {
-			 "song": "",
-		 	"artist": "",
-			 "Sign": "",
-			 "Type": ""
-		 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		},
+		"song2": {
+			"song": "",
+			"artist": "",
 			"Sign": "",
-		 	"Type": ""
-		 
-		 }
+			"Type": ""
+		},
+		"song3": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
 		
 		},
 	
@@ -243,26 +237,25 @@ def render_result():
 			"artist": "Pavement",
 			"Sign": "",
 			"Type": ""
-		 },
-		 "song2": {
-		 	"song": "She Don't Use Jelly",
-		 	"artist": "The Flaming Lips",
-		 	"Sign": "",
-		 	"Type": ""
-		 },
-		 "song3": {
-			 "song": "Fade Into You",
-		 	"artist": "Mazzy Star",
-			 "Sign": "",
-			 "Type": ""
-		 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		},
+		"song2": {
+			"song": "She Don't Use Jelly",
+			"artist": "The Flaming Lips",
 			"Sign": "",
-		 	"Type": ""
-		 
-		 }
+			"Type": ""
+		},
+		"song3": {
+			"song": "Fade Into You",
+			"artist": "Mazzy Star",
+			"Sign": "",
+			"Type": ""
+		},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+		}
 		
 		},
 
@@ -274,27 +267,26 @@ def render_result():
 			"Sign": "taurus",
 			"Type": "earth"
 			},
-		 "song2": {
-		 	"song": "Fell in Love With a Girl",
-		 	"artist": "The White Stripes",
-		 	"Sign": "cancer, sagittarius",
-		 	"Type": "water, fire"
-		 	},
-		 "song3": {
-			 "song": "Heads Will Roll",
-		 	"artist": "Yeah Yeah Yeahs",
-			 "Sign": "sagittarius",
-			 "Type": "fire"
-			 },
-		 "song4": {
-		 	"song": "Take Me Out",
-		 	"artist": "Franz Ferdinand",
+		"song2": {
+			"song": "Fell in Love With a Girl",
+			"artist": "The White Stripes",
+			"Sign": "cancer, sagittarius",
+			"Type": "water, fire"
+			},
+		"song3": {
+			"song": "Heads Will Roll",
+			"artist": "Yeah Yeah Yeahs",
+			"Sign": "sagittarius",
+			"Type": "fire"
+			},
+		"song4": {
+			"song": "Take Me Out",
+			"artist": "Franz Ferdinand",
 			"Sign": "sagittarius, pisces",
-		 	"Type": ""
-		 	}
-		 },
-		 	 
-		 
+			"Type": ""
+			}
+		},
+		
 	"80s rock": {
 		"song1": {
 			"song": "Kiss Off",
@@ -302,26 +294,26 @@ def render_result():
 			"Sign": "gemini",
 			"Type": "air"
 			},
-		 "song2": {
-		 	"song": "",
-		 	"artist": "",
-		 	"Sign": "",
-		 	"Type": ""
-		 	},
-		 "song3": {
-			 "song": "",
-		 	"artist": "",
-			 "Sign": "",
-			 "Type": ""
-			 },
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		"song2": {
+			"song": "",
+			"artist": "",
 			"Sign": "",
-		 	"Type": ""
-		 	}
-		 },
-		 
+			"Type": ""
+			},
+		"song3": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+			},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+			}
+		},
+		
 		 
 	"0s ": {
 		"song1": {
@@ -330,31 +322,32 @@ def render_result():
 			"Sign": "",
 			"Type": ""
 			},
-		 "song2": {
-		 	"song": "",
-		 	"artist": "",
-		 	"Sign": "",
-		 	"Type": ""
-		 	},
-		 "song3": {
-			 "song": "",
-		 	"artist": "",
-			 "Sign": "",
-			 "Type": ""
-		 	},
-		 "song4": {
-		 	"song": "",
-		 	"artist": "",
+		"song2": {
+			"song": "",
+			"artist": "",
 			"Sign": "",
-		 	"Type": ""
-		 
-		 	}
-		 }
+			"Type": ""
+			},
+		"song3": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+			},
+		"song4": {
+			"song": "",
+			"artist": "",
+			"Sign": "",
+			"Type": ""
+			}
+		}
 		
 		
 	}
 	
-
+	sign = sign.strip()
+	artist = artist.strip()
+	
 	#create and set element variables
 	if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
 		element = "fire"
@@ -366,12 +359,9 @@ def render_result():
 		element = "air"
 	else:
 		element = "none"
-    
-
-    
-    #create and set taste, which is name of dictionary values
+		
+	#create and set taste, which is name of dictionary values
 	taste = era + " " + genre
-    
 
 	for x in songs[taste]:
 		songRec = songs[taste][x]["song"]
@@ -383,21 +373,25 @@ def render_result():
 	else:
 		artistElem = songs[taste][x]["Type"]
 		artistSign = songs[taste][x]["Sign"]
-		if artistElem.find(element) >= 0:
-			if artistSign.find(sign) >= 0:
-				#send something to the result page. this is same sign
-				if artistSign == "aquarius" or artistSign == "aries":
-					reply = "You might like this song, which is by an artist who is also an  " + sign + " : "+ songRec + " by " + artistRec
-				else:
-					reply = "You might like this song, which is by an artist who is also a " + sign + " : "+ songRec + " by " + artistRec
+		
+		if artistRec.casefold == artist
+			reply = "Here is a song by an artist you like: " + songRec + " by " + artistRec
+		else
+			if artistElem.find(element) >= 0:
+				if artistSign.find(sign) >= 0:
+					#send something to the result page. this is same sign
+					if artistSign == "aquarius" or artistSign == "aries":
+						reply = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec + " by " + artistRec
+					else:
+						reply = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec + " by " + artistRec
 				
-			else:
-				if element == "earth" or element == "air":
-					reply = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
 				else:
-					reply = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
-		else:
-			reply = basicReply
+					if element == "earth" or element == "air":
+						reply = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
+					else:
+						reply = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
+			else:
+				reply = basicReply
     		#ALSO sent to results page. this is absolutle yno zodiac connection
     		
 	return render_template('result.html', result = reply)
