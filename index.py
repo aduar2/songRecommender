@@ -397,4 +397,4 @@ def render_result():
 	return render_template('result.html', result = reply)
     
 if __name__=="__main__":
-	app.run(debug=True, port=54321)
+	app.run(debug=False, port=54321)
