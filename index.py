@@ -403,8 +403,8 @@ for x in songs[taste]:
 			reply = basicReply
     		#ALSO sent to results page. this is absolutle yno zodiac connection
     		
-    		 return render_template('response.html', response = reply)
+    		 return render_template('result.html', result = reply)
     
 if __name__=="__main__":
-app.run(debug=False, port=54321)
+app.run(debug=True, port=54321)
     		
