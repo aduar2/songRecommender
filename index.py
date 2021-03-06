@@ -367,34 +367,35 @@ def render_result():
 		songRec = songs[taste][x]["song"]
 		artistRec = songs[taste][x]["artist"]
 		basicReply = "You might like " + songRec + " by " + artistRec
+		y = x.replace("song", "reply")
 		
-	if element == "none":
-		result = basicReply
-	else:
-		artistElem = songs[taste][x]["Type"]
-		artistSign = songs[taste][x]["Sign"]
+		if element == "none":
+			result = basicReply
+		else:
+			artistElem = songs[taste][x]["Type"]
+			artistSign = songs[taste][x]["Sign"]
 		
-		if artistRec.casefold == artist
-			reply = "Here is a song by an artist you like: " + songRec + " by " + artistRec
-		else
-			if artistElem.find(element) >= 0:
-				if artistSign.find(sign) >= 0:
-					#send something to the result page. this is same sign
-					if artistSign == "aquarius" or artistSign == "aries":
-						reply = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec + " by " + artistRec
-					else:
-						reply = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec + " by " + artistRec
+			if artistRec.casefold == artist
+				y = "Here is a song by an artist you like: " + songRec + " by " + artistRec
+			else
+				if artistElem.find(element) >= 0:
+					if artistSign.find(sign) >= 0:
+						#send something to the result page. this is same sign
+						if artistSign == "aquarius" or artistSign == "aries":
+							y = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec + " by " + artistRec
+						else:
+							y = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec + " by " + artistRec
 				
-				else:
-					if element == "earth" or element == "air":
-						reply = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
 					else:
-						reply = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
-			else:
-				reply = basicReply
-    		#ALSO sent to results page. this is absolutle yno zodiac connection
+						if element == "earth" or element == "air":
+							y = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
+						else:
+							y = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
+				else:
+					y = basicReply
+    			#ALSO sent to results page. this is absolutle yno zodiac connection
     		
-	return render_template('result.html', result = reply)
+	return render_template('result.html', result1 = reply1, result2 = reply2, result3 = reply3, result4 = reply4)
     
 if __name__=="__main__":
 	app.run(debug=False, port=54321)
