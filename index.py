@@ -7,8 +7,8 @@ def render_main():
 	return render_template('home.html')
 
 
-@app.route("/result")
-def render_result():
+@app.route("/response")
+def render_response():
 	genre = request.args['genre']
 	artist = request.args['artist']
 	era = request.args['era']
