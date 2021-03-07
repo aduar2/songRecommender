@@ -325,13 +325,13 @@ def render_response():
     
 	
 	#create and set element variables
-    if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
+    if sign.find("leo") or sign.find("aries") or sign.find("sagittarius"):
         element = "fire"
-    elif sign.find("pisces") == 0 or sign.find("cancer") == 0 or sign.find("scorpio") == 0:
+    elif sign.find("pisces") or sign.find("cancer") or sign.find("scorpio"):
         element = "water"
-    elif sign.find("taurus") == 0 or sign.find("capricorn") == 0 or sign.find("virgo") == 0:
+    elif sign.find("taurus") or sign.find("capricorn") or sign.find("virgo"):
         element = "earth"
-    elif sign.find("aquarius") == 0 or sign.find("gemini") == 0 or sign.find("libra") == 0:
+    elif sign.find("aquarius") or sign.find("gemini") or sign.find("libra"):
         element = "air"
     else:
         element = "none"
