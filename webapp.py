@@ -373,7 +373,7 @@ def render_response():
                 else:
                     y = basicReply
                     
-        reply[count] = y
+        	reply[count] = y
         
     return render_template('response.html', response = reply)
 
