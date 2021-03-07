@@ -362,12 +362,15 @@ def render_result():
 		
 	#create and set taste, which is name of dictionary values
 	taste = era + " " + genre
+	
+	count = 0
 
 	for x in songs[taste]:
 		songRec = songs[taste][x]["song"]
 		artistRec = songs[taste][x]["artist"]
 		basicReply = "You might like " + songRec + " by " + artistRec
-		y = x.replace("song", "reply")
+		count = count + 1
+		reply = ["0", "1", "2", "3"]
 		
 		if element == "none":
 			result = basicReply
@@ -376,7 +379,7 @@ def render_result():
 			artistSign = songs[taste][x]["Sign"]
 		
 			if artistRec.casefold == artist
-				y = "Here is a song by an artist you like: " + songRec + " by " + artistRec
+				y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
 			else
 				if artistElem.find(element) >= 0:
 					if artistSign.find(sign) >= 0:
@@ -393,7 +396,8 @@ def render_result():
 							y = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
 				else:
 					y = basicReply
-    		
+		reply[count] = y
+		
 	return render_template('result.html', result = reply)
     
 if __name__=="__main__":
