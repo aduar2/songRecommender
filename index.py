@@ -344,41 +344,40 @@ def render_response():
 	taste = era + " " + genre
 	
 	count = 0
-
-	for x in songs[taste]:
-		songRec = songs[taste][x]["song"]
-		artistRec = songs[taste][x]["artist"]
-		basicReply = "You might like " + songRec + " by " + artistRec
-		count = count + 1
-		reply = ["0", "1", "2", "3"]
+    
+    for x in songs[taste]:
+        songRec = songs[taste][x]["song"]
+        artistRec = songs[taste][x]["artist"]
+        basicReply = "You might like " + songRec + " by " + artistRec
+        count = count + 1
+        reply = ["0", "1", "2", "3"]
         
-		if artistRec.casefold == artist:
-			y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
-		else:
-			if element == "none":
-				response = basicReply
-			else:
-				artistElem = songs[taste][x]["Type"]
-				artistSign = songs[taste][x]["Sign"]
-				if artistElem.find(element) >= 0:
-					if artistSign.find(sign) >= 0:
-						#send something to the result page. this is same sign
-						if artistSign == "aquarius" or artistSign == "aries":
-							y = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec + " by " + artistRec
-						else:
-							y = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec + " by " + artistRec
-					else:
-						if element == "earth" or element == "air":
-							y = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
-						else:
-							y = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
-				else:
-					y = basicReply
-					
-		reply[count] = y
-		
-		
-	return render_template('response.html', response = reply)
+        if artistRec.casefold == artist:
+            y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
+        else:
+            if element == "none":
+                response = basicReply
+            else:
+                artistElem = songs[taste][x]["Type"]
+                artistSign = songs[taste][x]["Sign"]
+                if artistElem.find(element) >= 0:
+                    if artistSign.find(sign) >= 0:
+                        #send something to the result page. this is same sign
+                        if artistSign == "aquarius" or artistSign == "aries":
+                            y = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec + " by " + artistRec
+                        else:
+                            y = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec + " by " + artistRec
+                    else:
+                        if element == "earth" or element == "air":
+                            y = "This song is by an artist who also has an " + element + " sign: "+ songRec + " by " + artistRec
+                        else:
+                            y = "This song is by an artist who also has a " + element + " sign: "+ songRec + " by " + artistRec
+                else:
+                    y = basicReply
+                    
+        reply[count] = y
+        
+    return render_template('response.html', response = reply)
 
 if __name__=="__main__":
-	app.run(debug=False, port=54321)
+    app.run(debug=False, port=54321)
