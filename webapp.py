@@ -376,7 +376,7 @@ def render_response():
         reply[count] = y
         count = count + 1
         
-    theRecs = reply[0] + <br> + reply[1] + <br> + reply[2]+ <br> + reply[3]
+    theRecs = reply[0] + <br> + reply[1] + "   " + reply[2]+ "   " + reply[3]
     return render_template('response.html', response = theRecs)
 
 if __name__=="__main__":
