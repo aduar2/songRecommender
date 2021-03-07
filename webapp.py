@@ -13,15 +13,15 @@ def render_response():
     era = request.args['era']
     sign = request.args['sign']
     
-    if sign == "leo" or "aries" or "sagittarius"
+    if sign == "leo" or "aries" or "sagittarius":
         element = "fire"
-	else if sign == "pisces" or "cancer" or "scorpio"
-		element = "water"
-	else if sign == "capricorn" or "taurus" or "virgo"
-		element = "earth"
-	else if sign == "aquarius" or "gemini" or "libra"
-		element = "air"
-	else
+    else if sign == "pisces" or "cancer" or "scorpio":
+        element = "water"
+    else if sign == "capricorn" or "taurus" or "virgo":
+        element = "earth"
+    else if sign == "aquarius" or "gemini" or "libra":
+        element = "air"
+    else
 		element = "none"
 		
         
