@@ -323,8 +323,14 @@ def render_response():
         }
     }
     #create and set taste, which is name of dictionary values
+    
+    Sign = str(sign)
+    Era = str(era)
+    Genre = str(genre)
+    Artist = str(artist)
 
-    taste = era + " " + genre
+    taste = Era + " " + Genre
+    
     
     reply = ["0", "1", "2", "3"]
 	
