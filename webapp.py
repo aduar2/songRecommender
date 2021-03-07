@@ -377,7 +377,7 @@ def render_response():
                     
                 reply[count] = y
                 
-        return render_template('response.html', response = reply)
+    return render_template('response.html', response = reply)
 
 if __name__=="__main__":
     app.run(debug=False, port=54321)
