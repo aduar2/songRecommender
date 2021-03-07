@@ -322,22 +322,8 @@ def render_response():
             }
         }
     }
-    
-	
-	#create and set element variables
-    if sign.find("leo") or sign.find("aries") or sign.find("sagittarius"):
-        element = "fire"
-    elif sign.find("pisces") or sign.find("cancer") or sign.find("scorpio"):
-        element = "water"
-    elif sign.find("taurus") or sign.find("capricorn") or sign.find("virgo"):
-        element = "earth"
-    elif sign.find("aquarius") or sign.find("gemini") or sign.find("libra"):
-        element = "air"
-    else:
-        element = "none"
-        
     #create and set taste, which is name of dictionary values
-
+    
     ssign = sign.strip()
     sgenre = genre.strip()
     sera = era.strip()
