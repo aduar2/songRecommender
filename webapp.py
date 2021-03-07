@@ -323,8 +323,6 @@ def render_response():
         }
     }
     
-    sign = sign.strip()
-    artist = artist.strip()
 	
 	#create and set element variables
     if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
