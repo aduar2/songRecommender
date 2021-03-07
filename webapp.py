@@ -21,13 +21,13 @@ def render_response():
     Artist = Artist.casefold()
     Sign = Sign.casefold()
     
-    if Sign == "leo" or "aries" or "sagittarius":
+    if Sign == "leo" or Sign == "aries" or Sign == "sagittarius":
         element = "fire"
-    elif Sign == "pisces" or "cancer" or "scorpio":
+    elif Sign == "pisces" or Sign == "cancer" or Sign == "scorpio":
         element = "water"
-    elif Sign == "capricorn" or "taurus" or "virgo":
+    elif Sign == "capricorn" or Sign == "taurus" or Sign == "virgo":
         element = "earth"
-    elif Sign == "aquarius" or "gemini" or "libra":
+    elif Sign == "aquarius" or Sign == "gemini" or Sign == "libra":
         element = "air"
     else:
         element = "none"
@@ -366,7 +366,7 @@ def render_response():
         count = count + 1
         
     theRecs = reply[0] + "   " + reply[1] + "   " + reply[2]+ "   " + reply[3]
-    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = Sign)
+    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3])
 
 if __name__=="__main__":
     app.run(debug=False, port=54321)
