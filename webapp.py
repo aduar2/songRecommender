@@ -337,6 +337,12 @@ def render_response():
         element = "none"
         
     #create and set taste, which is name of dictionary values
+
+    ssign = sign.strip()
+    sgenre = genre.strip()
+    sera = era.strip()
+    sartist = artist.strip()
+
     taste = era + " " + genre
     
     reply = ["0", "1", "2", "3"]
