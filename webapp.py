@@ -23,13 +23,8 @@ def render_response():
         element = "air"
     else:
         element = "none"
-        
-    genre = genre.casefold
-    artist = artist.casefold
-    era = era.casefold
-    sign = sign.casefold
 	
-	#set variables from input. use sring methods to rid of whitespace and capitals :)
+    #set variables from input. use sring methods to rid of whitespace and capitals :)
     songs = {
         "2010s rock": {
             "song1": {
@@ -328,6 +323,9 @@ def render_response():
     Era = str(era)
     Genre = str(genre)
     Artist = str(artist)
+    
+    Artist = Artist.casefold()
+    Sign = Sign.casefold()
 
     taste = Era + " " + Genre
     
