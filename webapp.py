@@ -15,11 +15,11 @@ def render_response():
     
     if sign == "leo" or "aries" or "sagittarius":
         element = "fire"
-    else if sign == "pisces" or "cancer" or "scorpio":
+    elif sign == "pisces" or "cancer" or "scorpio":
         element = "water"
-    else if sign == "capricorn" or "taurus" or "virgo":
+    elif sign == "capricorn" or "taurus" or "virgo":
         element = "earth"
-    else if sign == "aquarius" or "gemini" or "libra":
+    elif sign == "aquarius" or "gemini" or "libra":
         element = "air"
     else
 		element = "none"
