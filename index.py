@@ -373,7 +373,7 @@ def render_result():
 		reply = ["0", "1", "2", "3"]
 		
 		if element == "none":
-			result = basicReply
+			response = basicReply
 		else:
 			artistElem = songs[taste][x]["Type"]
 			artistSign = songs[taste][x]["Sign"]
@@ -398,7 +398,7 @@ def render_result():
 					y = basicReply
 		reply[count] = y
 		
-	return render_template('result.html', result = reply)
+	return render_template('response.html', response = reply)
     
 if __name__=="__main__":
 	app.run(debug=False, port=54321)
