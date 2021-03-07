@@ -349,7 +349,6 @@ def render_response():
         songRec = songs[taste][x]["song"]
         artistRec = songs[taste][x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
-        count = count + 1
         
         if artistRec.casefold == artist:
             y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
@@ -374,8 +373,8 @@ def render_response():
                 else:
                     y = basicReply
                     
-                    
-                reply[count] = y
+        reply[count] = y
+        count = count + 1
                 
     return render_template('response.html', response = reply)
 
