@@ -341,7 +341,7 @@ def render_response():
         artistRec = songs[taste][x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
-        if artistRec.casefold() == artist:
+        if artistRec.lower() == artist:
             y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
         else:
             if element == "none":
