@@ -21,7 +21,7 @@ def render_response():
         element = "earth"
     elif sign == "aquarius" or "gemini" or "libra":
         element = "air"
-    else
+    else:
 		element = "none"
 		
         
