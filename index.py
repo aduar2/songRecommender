@@ -9,12 +9,12 @@ def render_main():
 @app.route("/response")
 def render_response():
 	genre = request.args['genre']
-	artist = request.args['artist']
+    artist = request.args['artist']
 	era = request.args['era']
-	sign = request.args['sign']
-	
-	if sign == "leo" or "aries" or "sagittarius"
-		element = "fire"
+    sign = request.args['sign']
+    
+    if sign == "leo" or "aries" or "sagittarius"
+        element = "fire"
 	else if sign == "pisces" or "cancer" or "scorpio"
 		element = "water"
 	else if sign == "capricorn" or "taurus" or "virgo"
