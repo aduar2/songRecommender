@@ -366,7 +366,7 @@ def render_response():
         count = count + 1
         
     theRecs = reply[0] + "   " + reply[1] + "   " + reply[2]+ "   " + reply[3]
-    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3])
+    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = Sign)
 
 if __name__=="__main__":
     app.run(debug=False, port=54321)
