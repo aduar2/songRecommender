@@ -340,6 +340,8 @@ def render_response():
         
     #create and set taste, which is name of dictionary values
     taste = era + " " + genre
+    
+    reply = ["0", "1", "2", "3"]
 	
     count = 0
     
@@ -348,7 +350,6 @@ def render_response():
         artistRec = songs[taste][x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         count = count + 1
-        reply = ["0", "1", "2", "3"]
         
         if artistRec.casefold == artist:
             y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
