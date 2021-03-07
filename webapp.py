@@ -355,7 +355,7 @@ def render_response():
             y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
         else:
             if element == "none":
-                response = basicReply
+                y = basicReply
             else:
                 artistElem = songs[taste][x]["Type"]
                 artistSign = songs[taste][x]["Sign"]
