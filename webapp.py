@@ -324,25 +324,24 @@ def render_response():
     }
     
     sign = sign.strip()
-	artist = artist.strip()
+    artist = artist.strip()
 	
 	#create and set element variables
-	if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
+    if sign.find("leo") == 0 or sign.find("aries") == 0 or sign.find("sagittarius") == 0:
         element = "fire"
-	elif sign.find("pisces") == 0 or sign.find("cancer") == 0 or sign.find("scorpio") == 0:
-		element = "water"
-	elif sign.find("taurus") == 0 or sign.find("capricorn") == 0 or sign.find("virgo") == 0:
-		element = "earth"
-	elif sign.find("aquarius") == 0 or sign.find("gemini") == 0 or sign.find("libra") == 0:
-		element = "air"
+    elif sign.find("pisces") == 0 or sign.find("cancer") == 0 or sign.find("scorpio") == 0:
+        element = "water"
+    elif sign.find("taurus") == 0 or sign.find("capricorn") == 0 or sign.find("virgo") == 0:
+        element = "earth"
+    elif sign.find("aquarius") == 0 or sign.find("gemini") == 0 or sign.find("libra") == 0:
+        element = "air"
     else:
-		element = "none"
+        element = "none"
         
-        
-	#create and set taste, which is name of dictionary values
-	taste = era + " " + genre
+    #create and set taste, which is name of dictionary values
+    taste = era + " " + genre
 	
-	count = 0
+    count = 0
     
     for x in songs[taste]:
         songRec = songs[taste][x]["song"]
