@@ -323,11 +323,6 @@ def render_response():
         }
     }
     #create and set taste, which is name of dictionary values
-    
-    ssign = sign.strip()
-    sgenre = genre.strip()
-    sera = era.strip()
-    sartist = artist.strip()
 
     taste = era + " " + genre
     
