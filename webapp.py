@@ -13,13 +13,21 @@ def render_response():
     era = request.args['era']
     sign = request.args['sign']
     
-    if sign == "leo" or "aries" or "sagittarius":
+    Sign = str(sign)
+    Era = str(era)
+    Genre = str(genre)
+    Artist = str(artist)
+    
+    Artist = Artist.casefold()
+    Sign = Sign.casefold()
+    
+    if Sign == "leo" or "aries" or "sagittarius":
         element = "fire"
-    elif sign == "pisces" or "cancer" or "scorpio":
+    elif Sign == "pisces" or "cancer" or "scorpio":
         element = "water"
-    elif sign == "capricorn" or "taurus" or "virgo":
+    elif Sign == "capricorn" or "taurus" or "virgo":
         element = "earth"
-    elif sign == "aquarius" or "gemini" or "libra":
+    elif Sign == "aquarius" or "gemini" or "libra":
         element = "air"
     else:
         element = "none"
@@ -318,14 +326,6 @@ def render_response():
         }
     }
     #create and set taste, which is name of dictionary values
-    
-    Sign = str(sign)
-    Era = str(era)
-    Genre = str(genre)
-    Artist = str(artist)
-    
-    Artist = Artist.casefold()
-    Sign = Sign.casefold()
 
     taste = Era + " " + Genre
     
@@ -339,7 +339,7 @@ def render_response():
         artistRec = songs[taste][x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
-        if artistRec.lower() == artist:
+        if artistRec.lower() == Artist:
             y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
         else:
             if element == "none":
@@ -348,7 +348,7 @@ def render_response():
                 artistElem = songs[taste][x]["Type"]
                 artistSign = songs[taste][x]["Sign"]
                 if artistElem.find(element) >= 0:
-                    if artistSign.find(sign) >= 0:
+                    if artistSign.find(Sign) >= 0:
                         #send something to the result page. this is same sign
                         if artistSign == "aquarius" or artistSign == "aries":
                             y = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec + " by " + artistRec
