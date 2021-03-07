@@ -22,8 +22,7 @@ def render_response():
     elif sign == "aquarius" or "gemini" or "libra":
         element = "air"
     else:
-		element = "none"
-		
+        element = "none"
         
     genre = genre.casefold
     artist = artist.casefold
