@@ -165,8 +165,8 @@ def render_response():
             },
             "song2": {
                 "song": "",
-                "artist": "The",
-                "Sign": "",
+                "artist": "Greer",
+                "Sign": " ",
                 "Type": "",
                 "Spotify": "",
                 "Apple": "",
@@ -182,12 +182,12 @@ def render_response():
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
+                "song": "I Wish I Was Stephen Malkmus",
                 "artist": "Beabadoobee",
-                "Sign": "",
-                "Type": "",
+                "Sign": "gemini",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/i-wish-i-was-stephen-malkmus/1482163543?i=1482163549",
                 "YouTube": ""
             }
         },
@@ -278,13 +278,13 @@ def render_response():
                 "YouTube": " "
             },
             "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "song": "Psycho Killer",
+                "artist": "Talking Heads",
+                "Sign": "Taurus",
+                "Type": "earth",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/psycho-killer/124925532?i=124924802",
+                "YouTube": " "
             },
             "song3": {
                 "song": "Sarah",
