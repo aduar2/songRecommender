@@ -36,28 +36,40 @@ def render_response():
     songs = {
         "2010s rock": {
             "song1": {
-                "song": "Sweetie Little Jean",
+                "song": "Spiderhead",
                 "artist": "Cage the Elephant",
                 "Sign": "scorpio",
-                "Type": "water"
+                "Type": "water",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "R U Mine?",
                 "artist": "Arctic Monkeys",
                 "Sign": "capricorn",
-                "Type": "earth"
+                "Type": "earth",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "Dead and Gone",
                 "artist": "The Black Keys",
                 "Sign": "taurus, aries",
-                "Type": "earth, fire"
+                "Type": "earth, fire",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": ""
+                "song": "1937 State Park",
+                "artist": "Car Seat Headrest",
+                "Sign": "virgo",
+                "Type": "earth",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
 		
@@ -67,25 +79,37 @@ def render_response():
                 "song": "Test Drive",
                 "artist": "Ariana Grande",
                 "Sign": "cancer",
-                "Type": "water"
+                "Type": "water",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "Watermelon Sugar",
                 "artist": "Harry Styles",
                 "Sign": "aquarius",
-                "Type": "air"
+                "Type": "air",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         
@@ -94,25 +118,37 @@ def render_response():
                 "song": "",
                 "artist": "Nirvana",
                 "Sign": "pisces",
-                "Type": "water"
+                "Type": "water",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "",
                 "artist": "Hole",
                 "Sign": "cancer",
-                "Type": "water"
+                "Type": "water",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "Pavement?",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         
@@ -121,25 +157,37 @@ def render_response():
                 "song": "",
                 "artist": "Beach Bunny",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "",
                 "artist": "Greta Van Fleet",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "The Adults are Talking",
                 "artist": "The Strokes",
                 "Sign": "taurus",
-                "Type": "earth"
+                "Type": "earth",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "00s rap": {
@@ -147,25 +195,37 @@ def render_response():
                 "song": "",
                 "artist": "Kid Cudi",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "",
                 "artist": "Kanye West",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "00s indie": {
@@ -173,25 +233,37 @@ def render_response():
                 "song": "Two Weeks",
                 "artist": "Grizzly Bear",
                 "Sign": "libra",
-                "Type": "air"
+                "Type": "air",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "1901",
                 "artist": "Pheonix",
                 "Sign": "scorpio",
-                "Type": "water"
+                "Type": "water",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "70s indie": {
@@ -199,25 +271,37 @@ def render_response():
                 "song": "San Francisco",
                 "artist": "Foxygen",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "90s indie": {
@@ -225,25 +309,37 @@ def render_response():
                 "song": "",
                 "artist": "Pavement",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "She Don't Use Jelly",
                 "artist": "The Flaming Lips",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "Fade Into You",
                 "artist": "Mazzy Star",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "2000s rock": {
@@ -251,25 +347,37 @@ def render_response():
                 "song": "Is This Is",
                 "artist": "The Strokes",
                 "Sign": "taurus",
-                "Type": "earth"
+                "Type": "earth",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "Fell in Love With a Girl",
                 "artist": "The White Stripes",
                 "Sign": "cancer, sagittarius",
-                "Type": "water, fire"
+                "Type": "water, fire",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "Heads Will Roll",
                 "artist": "Yeah Yeah Yeahs",
                 "Sign": "sagittarius",
-                "Type": "fire"
+                "Type": "fire",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "Take Me Out",
                 "artist": "Franz Ferdinand",
                 "Sign": "sagittarius, pisces",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "80s rock": {
@@ -277,25 +385,37 @@ def render_response():
                 "song": "Kiss Off",
                 "artist": "Violent Femmes",
                 "Sign": "gemini",
-                "Type": "air"
+                "Type": "air",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         },
         "0s ": {
@@ -303,25 +423,37 @@ def render_response():
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song2": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             },
             "song4": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": ""
+                "Type": "",
+                "Spotify": "",
+                "Apple Music": "",
+                "YouTube": ""
             }
         }
     }
