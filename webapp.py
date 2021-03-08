@@ -41,7 +41,7 @@ def render_response():
                 "Sign": "scorpio",
                 "Type": "water",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -50,7 +50,7 @@ def render_response():
                 "Sign": "capricorn",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -59,7 +59,7 @@ def render_response():
                 "Sign": "taurus, aries",
                 "Type": "earth, fire",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -68,7 +68,7 @@ def render_response():
                 "Sign": "virgo",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -81,7 +81,7 @@ def render_response():
                 "Sign": "cancer",
                 "Type": "water",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -90,7 +90,7 @@ def render_response():
                 "Sign": "aquarius",
                 "Type": "air",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -99,7 +99,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -108,7 +108,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -120,7 +120,7 @@ def render_response():
                 "Sign": "pisces",
                 "Type": "water",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -129,7 +129,7 @@ def render_response():
                 "Sign": "cancer",
                 "Type": "water",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -138,7 +138,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -147,7 +147,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -159,7 +159,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -168,7 +168,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -177,7 +177,7 @@ def render_response():
                 "Sign": "taurus",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -186,7 +186,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -197,7 +197,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -206,7 +206,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -215,7 +215,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -224,7 +224,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -235,7 +235,7 @@ def render_response():
                 "Sign": "libra",
                 "Type": "air",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -244,7 +244,7 @@ def render_response():
                 "Sign": "scorpio",
                 "Type": "water",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -253,7 +253,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -262,7 +262,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -273,7 +273,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -282,7 +282,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -291,7 +291,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -300,7 +300,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -311,7 +311,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -320,7 +320,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -329,7 +329,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -338,7 +338,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -349,7 +349,7 @@ def render_response():
                 "Sign": "taurus",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -358,7 +358,7 @@ def render_response():
                 "Sign": "cancer, sagittarius",
                 "Type": "water, fire",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -367,7 +367,7 @@ def render_response():
                 "Sign": "sagittarius",
                 "Type": "fire",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -376,7 +376,7 @@ def render_response():
                 "Sign": "sagittarius, pisces",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -387,7 +387,7 @@ def render_response():
                 "Sign": "gemini",
                 "Type": "air",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -396,7 +396,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -405,7 +405,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -414,7 +414,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         },
@@ -425,7 +425,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
@@ -434,7 +434,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -443,7 +443,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song4": {
@@ -452,7 +452,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple Music": "",
+                "Apple": "",
                 "YouTube": ""
             }
         }
