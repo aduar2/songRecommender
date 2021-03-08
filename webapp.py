@@ -290,10 +290,10 @@ def render_response():
                 "song": "Sarah",
                 "artist": "Alex G",
                 "Sign": "aquarius",
-                "Type": "air,
-                "Spotify": "",
+                "Type": "air",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/sarah/1483272616?i=1483272819",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song4": {
                 "song": "",
@@ -320,18 +320,18 @@ def render_response():
                 "artist": "The Flaming Lips",
                 "Sign": "capricorn",
                 "Type": "earth",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/she-dont-use-jelly/1231989623?i=1231989631",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song3": {
                 "song": "Fade Into You",
                 "artist": "Mazzy Star",
                 "Sign": "cancer",
                 "Type": "water",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/fade-into-you/1440848808?i=1440848810",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song4": {
                 "song": "",
@@ -349,36 +349,36 @@ def render_response():
                 "artist": "The Strokes",
                 "Sign": "taurus",
                 "Type": "earth",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/is-this-it/266376953?i=266376961",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song2": {
                 "song": "Fell in Love With a Girl",
                 "artist": "The White Stripes",
                 "Sign": "cancer, sagittarius",
                 "Type": "water, fire",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/fell-in-love-with-a-girl/1533513361?i=1533513365",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song3": {
                 "song": "Heads Will Roll",
                 "artist": "Yeah Yeah Yeahs",
                 "Sign": "sagittarius",
                 "Type": "fire",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/heads-will-roll/1440771833?i=1440771850",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song4": {
                 "song": "Take Me Out",
                 "artist": "Franz Ferdinand",
                 "Sign": "sagittarius, pisces",
-                "Type": "",
-                "Spotify": "",
+                "Type": "fire, water",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/take-me-out/315843479?i=315844084",
-                "YouTube": ""
+                "YouTube": " "
             }
         },
         "80s rock": {
@@ -387,9 +387,9 @@ def render_response():
                 "artist": "Violent Femmes",
                 "Sign": "gemini",
                 "Type": "air",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/kiss-off/1455129708?i=1455129986",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song2": {
                 "song": "Bad Reputation;",
@@ -444,9 +444,9 @@ def render_response():
                 "artist": "The Doors",
                 "Sign": "sagittarius",
                 "Type": "fire",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/break-on-through-to-the-other-side-mono-remastered/1192962129?i=1192962341",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song4": {
                 "song": "Somebody to Love",
@@ -464,18 +464,18 @@ def render_response():
                 "artist": "Nancy Sinatra",
                 "Sign": "gemini",
                 "Type": "air",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/these-boots-are-made-for-walkin/148036422?i=148036556",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song2": {
                 "song": "'63 Sunshine, Lollipops and Rainbows",
                 "artist": "Lesley Gore",
                 "Sign": "aquarius",
                 "Type": "air",
-                "Spotify": "",
+                "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/sunshine-lollipops-and-rainbows/1444110306?i=1444110937",
-                "YouTube": ""
+                "YouTube": " "
             },
             "song3": {
                 "song": "",
