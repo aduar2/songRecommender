@@ -12,6 +12,7 @@ def render_response():
     artist = request.args['artist']
     era = request.args['era']
     sign = request.args['sign']
+    platform = request.args['platform']
     
     Sign = str(sign)
     Era = str(era)
@@ -463,8 +464,7 @@ def render_response():
     
     
     reply = ["0", "1", "2", "3"]
-	
-    count = 0
+    urls = ["0", "1", "2", "3"]
     
     for x in songs[taste]:
         songRec = songs[taste][x]["song"]
@@ -494,11 +494,18 @@ def render_response():
                 else:
                     y = basicReply
                     
+        if platform == "Spotify":
+            urls[count] = songs[taste][x][Spotify]
+        elif platform == "Apple":
+            urls[count] = songs[taste][x][Apple]
+        else:
+            urls[count] = songs[taste][x][Youtube]
+                    
         reply[count] = y
         count = count + 1
         
     theRecs = reply[0] + "   " + reply[1] + "   " + reply[2]+ "   " + reply[3]
-    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3])
-
+    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3], songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
+            
 if __name__=="__main__":
     app.run(debug=False, port=54321)
