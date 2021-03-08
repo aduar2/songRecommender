@@ -457,7 +457,7 @@ def render_response():
                 "Apple": " ",
                 "YouTube": ""
             }
-        }
+        },
         "70s pop": {
             "song1": {
                 "song": "These Boots Are Made for Walkin'",
@@ -495,7 +495,7 @@ def render_response():
                 "Apple": "",
                 "YouTube": ""
             }
-        }
+        },
         
         "0s ": {
             "song1": {
