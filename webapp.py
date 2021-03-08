@@ -42,7 +42,7 @@ def render_response():
                 "Sign": "scorpio",
                 "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/spiderhead/683346293?i=683346493",
                 "YouTube": ""
             },
             "song2": {
@@ -51,7 +51,7 @@ def render_response():
                 "Sign": "capricorn",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/r-u-mine/663097964?i=663097966",
                 "YouTube": ""
             },
             "song3": {
@@ -60,7 +60,7 @@ def render_response():
                 "Sign": "taurus, aries",
                 "Type": "earth, fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/dead-and-gone/1052966287?i=1052966685",
                 "YouTube": ""
             },
             "song4": {
@@ -69,7 +69,7 @@ def render_response():
                 "Sign": "virgo",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/1937-state-park/1117093779?i=1117094123",
                 "YouTube": ""
             }
         },
@@ -82,7 +82,7 @@ def render_response():
                 "Sign": "cancer",
                 "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/test-drive/1553944254?i=1553944494",
                 "YouTube": ""
             },
             "song2": {
@@ -91,7 +91,7 @@ def render_response():
                 "Sign": "aquarius",
                 "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/watermelon-sugar/1485802965?i=1485802967",
                 "YouTube": ""
             },
             "song3": {
@@ -116,56 +116,56 @@ def render_response():
         
         "90s rock": {
             "song1": {
-                "song": "",
+                "song": "On a Plain",
                 "artist": "Nirvana",
                 "Sign": "pisces",
                 "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/on-a-plain/1440783617?i=1440783786",
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
+                "song": "Plump",
                 "artist": "Hole",
                 "Sign": "cancer",
                 "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/plump/1445732603?i=1445732610",
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
+                "song": "Loretta's Scars",
                 "artist": "Pavement?",
-                "Sign": "",
-                "Type": "",
+                "Sign": "gemini",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/lorettas-scars/1544358287?i=1544358708",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Blow Up the Outside World",
+                "artist": "Soundgarden",
+                "Sign": "cancer",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/blow-up-the-outside-world/1440866412?i=1440866777",
                 "YouTube": ""
             }
         },
         
         "current rock": {
             "song1": {
-                "song": "",
+                "song": "Painkiller",
                 "artist": "Beach Bunny",
-                "Sign": "",
-                "Type": "",
+                "Sign": "Libra",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/painkiller/1476463573?i=1476463575",
                 "YouTube": ""
             },
             "song2": {
                 "song": "",
-                "artist": "Greta Van Fleet",
+                "artist": "The",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -178,12 +178,12 @@ def render_response():
                 "Sign": "taurus",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/the-adults-are-talking/1498121188?i=1498121711",
                 "YouTube": ""
             },
             "song4": {
                 "song": "",
-                "artist": "",
+                "artist": "Beabadoobee",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -318,19 +318,19 @@ def render_response():
             "song2": {
                 "song": "She Don't Use Jelly",
                 "artist": "The Flaming Lips",
-                "Sign": "",
-                "Type": "",
+                "Sign": "capricorn",
+                "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/she-dont-use-jelly/1231989623?i=1231989631",
                 "YouTube": ""
             },
             "song3": {
                 "song": "Fade Into You",
                 "artist": "Mazzy Star",
-                "Sign": "",
-                "Type": "",
+                "Sign": "cancer",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/fade-into-you/1440848808?i=1440848810",
                 "YouTube": ""
             },
             "song4": {
@@ -350,7 +350,7 @@ def render_response():
                 "Sign": "taurus",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/is-this-it/266376953?i=266376961",
                 "YouTube": ""
             },
             "song2": {
@@ -359,7 +359,7 @@ def render_response():
                 "Sign": "cancer, sagittarius",
                 "Type": "water, fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/fell-in-love-with-a-girl/1533513361?i=1533513365",
                 "YouTube": ""
             },
             "song3": {
@@ -368,7 +368,7 @@ def render_response():
                 "Sign": "sagittarius",
                 "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/heads-will-roll/1440771833?i=1440771850",
                 "YouTube": ""
             },
             "song4": {
@@ -377,7 +377,7 @@ def render_response():
                 "Sign": "sagittarius, pisces",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/take-me-out/315843479?i=315844084",
                 "YouTube": ""
             }
         },
@@ -388,7 +388,7 @@ def render_response():
                 "Sign": "gemini",
                 "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/kiss-off/1455129708?i=1455129986",
                 "YouTube": ""
             },
             "song2": {
