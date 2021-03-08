@@ -235,47 +235,47 @@ def render_response():
                 "artist": "Grizzly Bear",
                 "Sign": "libra",
                 "Type": "air",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/two-weeks/314837656?i=314837675",
+                "YouTube": " "
             },
             "song2": {
                 "song": "1901",
                 "artist": "Pheonix",
                 "Sign": "scorpio",
                 "Type": "water",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/1901/1450828963?i=1450829103",
+                "YouTube": " "
             },
             "song3": {
-                "song": "",
-                "artist": "",
+                "song": "Rawnald Gregory Erickson the Second",
+                "artist": "STRFKR",
                 "Sign": "",
                 "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/rawnald-gregory-erickson-the-second/290359552?i=290359609",
+                "YouTube": " "
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "song": "Young Folks",
+                "artist": "Peter Bjorn and John",
+                "Sign": "libra, taurus",
+                "Type": "air, earth",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/young-folks/215554129?i=215554232",
+                "YouTube": " "
             }
         },
         "70s indie": {
             "song1": {
                 "song": "San Francisco",
                 "artist": "Foxygen",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "Sign": "scorpio, aquarius",
+                "Type": "water, air",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/san-francisco/579417867?i=579417919",
+                "YouTube": " "
             },
             "song2": {
                 "song": "",
@@ -287,12 +287,12 @@ def render_response():
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Sarah",
+                "artist": "Alex G",
+                "Sign": "aquarius",
+                "Type": "air,
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/sarah/1483272616?i=1483272819",
                 "YouTube": ""
             },
             "song4": {
@@ -343,7 +343,7 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "2000s rock": {
+        "00s rock": {
             "song1": {
                 "song": "Is This Is",
                 "artist": "The Strokes",
@@ -392,13 +392,13 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
+                "song": "Bad Reputation;",
+                "artist": "Joan Jett",
+                "Sign": "virgo",
+                "Type": "earth",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/bad-reputation/1434145250?i=1434145252",
+                "YouTube": " "
             },
             "song3": {
                 "song": "",
@@ -419,6 +419,84 @@ def render_response():
                 "YouTube": ""
             }
         },
+	    
+	    "70s rock": {
+            "song1": {
+                "song": "'68 Picture Book",
+                "artist": "The Kinks",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "'76 Cherry Bomb",
+                "artist": "Runaways",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "'67 Break On Through",
+                "artist": "The Doors",
+                "Sign": "sagittarius",
+                "Type": "fire",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/break-on-through-to-the-other-side-mono-remastered/1192962129?i=1192962341",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "Somebody to Love",
+                "artist": "Jefferson Airplane",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": " ",
+                "YouTube": ""
+            }
+        }
+        "70s pop": {
+            "song1": {
+                "song": "These Boots Are Made for Walkin'",
+                "artist": "Nancy Sinatra",
+                "Sign": "gemini",
+                "Type": "air",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/these-boots-are-made-for-walkin/148036422?i=148036556",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "'63 Sunshine, Lollipops and Rainbows",
+                "artist": "Lesley Gore",
+                "Sign": "aquarius",
+                "Type": "air",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/sunshine-lollipops-and-rainbows/1444110306?i=1444110937",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        }
+        
         "0s ": {
             "song1": {
                 "song": "",
