@@ -462,6 +462,7 @@ def render_response():
 
     taste = Era + " " + Genre
     
+    count = 0
     
     reply = ["0", "1", "2", "3"]
     urls = ["0", "1", "2", "3"]
