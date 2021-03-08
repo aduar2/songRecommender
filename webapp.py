@@ -500,7 +500,7 @@ def render_response():
         elif platform == "Apple":
             urls[count] = songs[taste][x]["Apple"]
         else:
-            urls[count] = songs[taste][x]["Youtube"]
+            urls[count] = """ + songs[taste][x]["Youtube"] + """
                     
         reply[count] = y
         count = count + 1
