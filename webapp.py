@@ -496,11 +496,11 @@ def render_response():
                     y = basicReply
                     
         if platform == "Spotify":
-            urls[count] = "'" + songs[taste][x]["Spotify"] + "'"
+            urls[count] = songs[taste][x]["Spotify"]
         elif platform == "Apple":
-            urls[count] = "'" + songs[taste][x]["Apple"] + "'"
+            urls[count] = songs[taste][x]["Apple"]
         else:
-            urls[count] = "'" + songs[taste][x]["Youtube"] + "'"
+            urls[count] = songs[taste][x]["Youtube"]
                     
         reply[count] = y
         count = count + 1
