@@ -300,7 +300,8 @@ def render_response():
                 "Apple": "https://music.apple.com/us/album/1937-state-park/1117093779?i=1117094123",
                 "YouTube": ""
             }
-        },"2010s indie": {
+        },
+        "2010s indie": {
             "song1": {
                 "song": "",
                 "artist": "",
