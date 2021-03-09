@@ -35,6 +35,242 @@ def render_response():
 	
     #set variables from input. use sring methods to rid of whitespace and capitals :)
     songs = {
+        
+        "current pop": {
+            "song1": {
+                "song": "Test Drive",
+                "artist": "Ariana Grande",
+                "Sign": "cancer",
+                "Type": "water",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/test-drive/1553944254?i=1553944494",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "Watermelon Sugar",
+                "artist": "Harry Styles",
+                "Sign": "aquarius",
+                "Type": "air",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/watermelon-sugar/1485802965?i=1485802967",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+       
+        "current rock": {
+            "song1": {
+                "song": "Painkiller",
+                "artist": "Beach Bunny",
+                "Sign": "Libra",
+                "Type": "air",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/painkiller/1476463573?i=1476463575",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "Greer",
+                "Sign": " ",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "The Adults are Talking",
+                "artist": "The Strokes",
+                "Sign": "taurus",
+                "Type": "earth",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/the-adults-are-talking/1498121188?i=1498121711",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "I Wish I Was Stephen Malkmus",
+                "artist": "Beabadoobee",
+                "Sign": "gemini",
+                "Type": "air",
+                "Spotify": "",
+                "Apple": "https://music.apple.com/us/album/i-wish-i-was-stephen-malkmus/1482163543?i=1482163549",
+                "YouTube": ""
+            }
+        },
+        
+        "current rap": {
+            "song1": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        "current indie": {
+            "song1": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        
+        "2010s pop": {
+            "song1": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        }
+        
+        "2010s rap": {
+            "song1": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
         "2010s rock": {
             "song1": {
                 "song": "Spiderhead",
@@ -74,24 +310,220 @@ def render_response():
             }
         },
 		
-		
-        "current pop": {
+		"2010s indie": {
             "song1": {
-                "song": "Test Drive",
-                "artist": "Ariana Grande",
-                "Sign": "cancer",
-                "Type": "water",
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
                 "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/test-drive/1553944254?i=1553944494",
+                "Apple": "",
                 "YouTube": ""
             },
             "song2": {
-                "song": "Watermelon Sugar",
-                "artist": "Harry Styles",
-                "Sign": "aquarius",
-                "Type": "air",
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
                 "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/watermelon-sugar/1485802965?i=1485802967",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        "00s pop": {
+            "song1": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        "00s rap": {
+            "song1": {
+                "song": "",
+                "artist": "Kid Cudi",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "Kanye West",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        "00s indie": {
+            "song1": {
+                "song": "Two Weeks",
+                "artist": "Grizzly Bear",
+                "Sign": "libra",
+                "Type": "air",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/two-weeks/314837656?i=314837675",
+                "YouTube": " "
+            },
+            "song2": {
+                "song": "1901",
+                "artist": "Pheonix",
+                "Sign": "scorpio",
+                "Type": "water",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/1901/1450828963?i=1450829103",
+                "YouTube": " "
+            },
+            "song3": {
+                "song": "Rawnald Gregory Erickson the Second",
+                "artist": "STRFKR",
+                "Sign": "",
+                "Type": "",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/rawnald-gregory-erickson-the-second/290359552?i=290359609",
+                "YouTube": " "
+            },
+            "song4": {
+                "song": "Young Folks",
+                "artist": "Peter Bjorn and John",
+                "Sign": "libra, taurus",
+                "Type": "air, earth",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/young-folks/215554129?i=215554232",
+                "YouTube": " "
+            }
+        },
+        
+        
+        "00s rock": {
+            "song1": {
+                "song": "Is This It",
+                "artist": "The Strokes",
+                "Sign": "taurus",
+                "Type": "earth",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/is-this-it/266376953?i=266376961",
+                "YouTube": " "
+            },
+            "song2": {
+                "song": "Fell in Love With a Girl",
+                "artist": "The White Stripes",
+                "Sign": "cancer, sagittarius",
+                "Type": "water, fire",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/fell-in-love-with-a-girl/1533513361?i=1533513365",
+                "YouTube": " "
+            },
+            "song3": {
+                "song": "Heads Will Roll",
+                "artist": "Yeah Yeah Yeahs",
+                "Sign": "sagittarius",
+                "Type": "fire",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/heads-will-roll/1440771833?i=1440771850",
+                "YouTube": " "
+            },
+            "song4": {
+                "song": "Take Me Out",
+                "artist": "Franz Ferdinand",
+                "Sign": "sagittarius, pisces",
+                "Type": "fire, water",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/take-me-out/315843479?i=315844084",
+                "YouTube": " "
+            }
+        },
+        
+        
+        "90s pop": {
+            "song1": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
                 "YouTube": ""
             },
             "song3": {
@@ -153,48 +585,11 @@ def render_response():
             }
         },
         
-        "current rock": {
-            "song1": {
-                "song": "Painkiller",
-                "artist": "Beach Bunny",
-                "Sign": "Libra",
-                "Type": "air",
-                "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/painkiller/1476463573?i=1476463575",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "",
-                "artist": "Greer",
-                "Sign": " ",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song3": {
-                "song": "The Adults are Talking",
-                "artist": "The Strokes",
-                "Sign": "taurus",
-                "Type": "earth",
-                "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/the-adults-are-talking/1498121188?i=1498121711",
-                "YouTube": ""
-            },
-            "song4": {
-                "song": "I Wish I Was Stephen Malkmus",
-                "artist": "Beabadoobee",
-                "Sign": "gemini",
-                "Type": "air",
-                "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/i-wish-i-was-stephen-malkmus/1482163543?i=1482163549",
-                "YouTube": ""
-            }
-        },
-        "00s rap": {
+        
+        "90s rap": {
             "song1": {
                 "song": "",
-                "artist": "Kid Cudi",
+                "artist": "",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -203,7 +598,7 @@ def render_response():
             },
             "song2": {
                 "song": "",
-                "artist": "Kanye West",
+                "artist": "",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -229,82 +624,7 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "00s indie": {
-            "song1": {
-                "song": "Two Weeks",
-                "artist": "Grizzly Bear",
-                "Sign": "libra",
-                "Type": "air",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/two-weeks/314837656?i=314837675",
-                "YouTube": " "
-            },
-            "song2": {
-                "song": "1901",
-                "artist": "Pheonix",
-                "Sign": "scorpio",
-                "Type": "water",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/1901/1450828963?i=1450829103",
-                "YouTube": " "
-            },
-            "song3": {
-                "song": "Rawnald Gregory Erickson the Second",
-                "artist": "STRFKR",
-                "Sign": "",
-                "Type": "",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/rawnald-gregory-erickson-the-second/290359552?i=290359609",
-                "YouTube": " "
-            },
-            "song4": {
-                "song": "Young Folks",
-                "artist": "Peter Bjorn and John",
-                "Sign": "libra, taurus",
-                "Type": "air, earth",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/young-folks/215554129?i=215554232",
-                "YouTube": " "
-            }
-        },
-        "70s indie": {
-            "song1": {
-                "song": "San Francisco",
-                "artist": "Foxygen",
-                "Sign": "scorpio, aquarius",
-                "Type": "water, air",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/san-francisco/579417867?i=579417919",
-                "YouTube": " "
-            },
-            "song2": {
-                "song": "Psycho Killer",
-                "artist": "Talking Heads",
-                "Sign": "Taurus",
-                "Type": "earth",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/psycho-killer/124925532?i=124924802",
-                "YouTube": " "
-            },
-            "song3": {
-                "song": "Sarah",
-                "artist": "Alex G",
-                "Sign": "aquarius",
-                "Type": "air",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/sarah/1483272616?i=1483272819",
-                "YouTube": " "
-            },
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
+        
         "90s indie": {
             "song1": {
                 "song": "",
@@ -335,6 +655,45 @@ def render_response():
             },
             "song4": {
                 "song": "",
+                "artist": "Neutral Milk Hotel",
+                "Sign": "Scorpio",
+                "Type": "water",
+                "Spotify": "",
+                "Apple": " ",
+                "YouTube": ""
+            }
+        },
+        
+        "80s pop": {
+            "song1": {
+                "song": "",
+                "artist": "Madonna",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "",
+                "artist": "Tears for Fears",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
                 "artist": "",
                 "Sign": "",
                 "Type": "",
@@ -343,44 +702,46 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "00s rock": {
+        
+        "80s indie": {
             "song1": {
-                "song": "Is This Is",
-                "artist": "The Strokes",
-                "Sign": "taurus",
-                "Type": "earth",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/is-this-it/266376953?i=266376961",
-                "YouTube": " "
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
             },
             "song2": {
-                "song": "Fell in Love With a Girl",
-                "artist": "The White Stripes",
-                "Sign": "cancer, sagittarius",
-                "Type": "water, fire",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/fell-in-love-with-a-girl/1533513361?i=1533513365",
-                "YouTube": " "
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
             },
             "song3": {
-                "song": "Heads Will Roll",
-                "artist": "Yeah Yeah Yeahs",
-                "Sign": "sagittarius",
-                "Type": "fire",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/heads-will-roll/1440771833?i=1440771850",
-                "YouTube": " "
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
             },
             "song4": {
-                "song": "Take Me Out",
-                "artist": "Franz Ferdinand",
-                "Sign": "sagittarius, pisces",
-                "Type": "fire, water",
-                "Spotify": " ",
-                "Apple": "https://music.apple.com/us/album/take-me-out/315843479?i=315844084",
-                "YouTube": " "
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
             }
         },
+        
         "80s rock": {
             "song1": {
                 "song": "Kiss Off",
@@ -420,10 +781,10 @@ def render_response():
             }
         },
 	    
-	    "70s rock": {
+        "80s rap": {
             "song1": {
-                "song": "'68 Picture Book",
-                "artist": "The Kinks",
+                "song": "",
+                "artist": "",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -431,13 +792,93 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "'76 Cherry Bomb",
-                "artist": "Runaways",
+                "song": "",
+                "artist": "",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
                 "Apple": "",
                 "YouTube": ""
+            },
+            "song3": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        
+        "70s indie": {
+            "song1": {
+                "song": "San Francisco",
+                "artist": "Foxygen",
+                "Sign": "scorpio, aquarius",
+                "Type": "water, air",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/san-francisco/579417867?i=579417919",
+                "YouTube": " "
+            },
+            "song2": {
+                "song": "Psycho Killer",
+                "artist": "Talking Heads",
+                "Sign": "Taurus",
+                "Type": "earth",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/psycho-killer/124925532?i=124924802",
+                "YouTube": " "
+            },
+            "song3": {
+                "song": "Sarah",
+                "artist": "Alex G",
+                "Sign": "aquarius",
+                "Type": "air",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/sarah/1483272616?i=1483272819",
+                "YouTube": " "
+            },
+            "song4": {
+                "song": "",
+                "artist": "",
+                "Sign": "",
+                "Type": "",
+                "Spotify": "",
+                "Apple": "",
+                "YouTube": ""
+            }
+        },
+        
+        
+	    "70s rock": {
+            "song1": {
+                "song": "'68 Picture Book",
+                "artist": "The Kinks",
+                "Sign": "",
+                "Type": "",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/picture-book-2018-stereo-remaster/1422691058?i=1422691732",
+                "YouTube": ""
+            },
+            "song2": {
+                "song": "'76 Cherry Bomb",
+                "artist": "Runaways",
+                "Sign": "",
+                "Type": "",
+                "Spotify": " ",
+                "Apple": "https://music.apple.com/us/album/cherry-bomb/1440747926?i=1440747928",
+                "YouTube": " "
             },
             "song3": {
                 "song": "'67 Break On Through",
@@ -449,8 +890,8 @@ def render_response():
                 "YouTube": " "
             },
             "song4": {
-                "song": "Somebody to Love",
-                "artist": "Jefferson Airplane",
+                "song": " ",
+                "artist": "Queen",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -460,7 +901,7 @@ def render_response():
         },
         "70s pop": {
             "song1": {
-                "song": "These Boots Are Made for Walkin'",
+                "song": "'66 These Boots Are Made for Walkin'",
                 "artist": "Nancy Sinatra",
                 "Sign": "gemini",
                 "Type": "air",
@@ -496,24 +937,25 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
-        "0s ": {
+	    
+	    
+        "70s rap": {
             "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "'71 Ain't No Sunshine",
+                "artist": "Bill Withers",
+                "Sign": "cancer",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/aint-no-sunshine/293521570?i=293521573",
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
+                "song": "'65 My Girl",
+                "artist": "The Temptations",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/my-girl/1423301162?i=1423301921",
                 "YouTube": ""
             },
             "song3": {
