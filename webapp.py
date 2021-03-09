@@ -35,7 +35,6 @@ def render_response():
 	
     #set variables from input. use sring methods to rid of whitespace and capitals :)
     songs = {
-        
         "current pop": {
             "song1": {
                 "song": "Test Drive",
@@ -74,7 +73,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-       
         "current rock": {
             "song1": {
                 "song": "Painkiller",
@@ -113,7 +111,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "current rap": {
             "song1": {
                 "song": "",
@@ -152,7 +149,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "current indie": {
             "song1": {
                 "song": "",
@@ -191,8 +187,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
-        
         "2010s pop": {
             "song1": {
                 "song": "",
@@ -231,7 +225,6 @@ def render_response():
                 "YouTube": ""
             }
         }
-        
         "2010s rap": {
             "song1": {
                 "song": "",
@@ -270,7 +263,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "2010s rock": {
             "song1": {
                 "song": "Spiderhead",
@@ -309,7 +301,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-		
 		"2010s indie": {
             "song1": {
                 "song": "",
@@ -348,7 +339,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "00s pop": {
             "song1": {
                 "song": "",
@@ -387,7 +377,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "00s rap": {
             "song1": {
                 "song": "",
@@ -426,7 +415,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "00s indie": {
             "song1": {
                 "song": "Two Weeks",
@@ -465,8 +453,6 @@ def render_response():
                 "YouTube": " "
             }
         },
-        
-        
         "00s rock": {
             "song1": {
                 "song": "Is This It",
@@ -505,8 +491,6 @@ def render_response():
                 "YouTube": " "
             }
         },
-        
-        
         "90s pop": {
             "song1": {
                 "song": "",
@@ -545,7 +529,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "90s rock": {
             "song1": {
                 "song": "On a Plain",
@@ -584,8 +567,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
-        
         "90s rap": {
             "song1": {
                 "song": "",
@@ -624,7 +605,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "90s indie": {
             "song1": {
                 "song": "",
@@ -663,7 +643,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "80s pop": {
             "song1": {
                 "song": "",
@@ -702,7 +681,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "80s indie": {
             "song1": {
                 "song": "",
@@ -741,7 +719,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
         "80s rock": {
             "song1": {
                 "song": "Kiss Off",
@@ -780,7 +757,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-	    
         "80s rap": {
             "song1": {
                 "song": "",
@@ -819,8 +795,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
-        
         "70s indie": {
             "song1": {
                 "song": "San Francisco",
@@ -859,8 +833,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        
-        
 	    "70s rock": {
             "song1": {
                 "song": "'68 Picture Book",
@@ -937,8 +909,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-	    
-	    
         "70s rap": {
             "song1": {
                 "song": "'71 Ain't No Sunshine",
@@ -978,7 +948,6 @@ def render_response():
             }
         }
     }
-    #create and set taste, which is name of dictionary values
 
     taste = Era + " " + Genre
     
