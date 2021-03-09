@@ -224,7 +224,7 @@ def render_response():
                 "Apple": "",
                 "YouTube": ""
             }
-        }
+        },
         "2010s rap": {
             "song1": {
                 "song": "",
@@ -300,8 +300,7 @@ def render_response():
                 "Apple": "https://music.apple.com/us/album/1937-state-park/1117093779?i=1117094123",
                 "YouTube": ""
             }
-        },
-		"2010s indie": {
+        },"2010s indie": {
             "song1": {
                 "song": "",
                 "artist": "",
@@ -683,8 +682,8 @@ def render_response():
         },
         "80s indie": {
             "song1": {
-                "song": "",
-                "artist": "",
+                "song": "The Killing Moon",
+                "artist": "Echo & the Bunnymen",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
