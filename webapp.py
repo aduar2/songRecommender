@@ -111,44 +111,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "current rap": {
-            "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
         "current indie": {
             "song1": {
                 "song": "",
@@ -225,44 +187,7 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "2010s rap": {
-            "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
+
         "2010s rock": {
             "song1": {
                 "song": "Spiderhead",
@@ -377,34 +302,7 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "00s rap": {
-            "song1": {
-                "song": "",
-                "artist": "Kid Cudi",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "",
-                "artist": "Kanye West",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
+
             "song4": {
                 "song": "",
                 "artist": "",
@@ -567,44 +465,7 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "90s rap": {
-            "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
+   
         "90s indie": {
             "song1": {
                 "song": "",
@@ -757,44 +618,7 @@ def render_response():
                 "YouTube": ""
             }
         },
-        "80s rap": {
-            "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
+  
         "70s indie": {
             "song1": {
                 "song": "San Francisco",
@@ -889,44 +713,6 @@ def render_response():
                 "Spotify": " ",
                 "Apple": "https://music.apple.com/us/album/sunshine-lollipops-and-rainbows/1444110306?i=1444110937",
                 "YouTube": " "
-            },
-            "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            },
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
-        "70s rap": {
-            "song1": {
-                "song": "'71 Ain't No Sunshine",
-                "artist": "Bill Withers",
-                "Sign": "cancer",
-                "Type": "water",
-                "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/aint-no-sunshine/293521570?i=293521573",
-                "YouTube": ""
-            },
-            "song2": {
-                "song": "'65 My Girl",
-                "artist": "The Temptations",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/my-girl/1423301162?i=1423301921",
-                "YouTube": ""
             },
             "song3": {
                 "song": "",
