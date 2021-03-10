@@ -10,12 +10,12 @@ def render_main():
 def render_response():
     genre = request.args['genre']
     artist = request.args['artist']
-    era = request.args['era']
+    decade = request.args['decade']
     sign = request.args['sign']
     platform = request.args['platform']
     
     Sign = str(sign)
-    Era = str(era)
+    Decade = str(decade)
     Genre = str(genre)
     Artist = str(artist)
     
@@ -55,16 +55,16 @@ def render_response():
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Violent",
+                "artist": "carolesdaughter",
+                "Sign": "sagittarius",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
+                "song": " ",
                 "artist": "",
                 "Sign": "",
                 "Type": "",
@@ -84,12 +84,12 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
+                "song": "Bittersweet",
                 "artist": "Greer",
-                "Sign": " ",
-                "Type": "",
+                "Sign": "capricorn",
+                "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song3": {
@@ -151,39 +151,39 @@ def render_response():
         },
         "2010s pop": {
             "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Lights",
+                "artist": "Ellie Goulding",
+                "Sign": "capricorn",
+                "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Blank Space",
+                "artist": "Taylor Swift",
+                "Sign": "sagittarius",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Everybody Talks",
+                "artist": "Neon Trees",
+                "Sign": "sagittarius",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Diamonds",
+                "artist": "Rihanna",
+                "Sign": "pisces",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             }
         },
@@ -302,17 +302,6 @@ def render_response():
                 "YouTube": ""
             }
         },
-
-            "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
-                "Spotify": "",
-                "Apple": "",
-                "YouTube": ""
-            }
-        },
         "00s indie": {
             "song1": {
                 "song": "Two Weeks",
@@ -391,8 +380,8 @@ def render_response():
         },
         "90s pop": {
             "song1": {
-                "song": "",
-                "artist": "",
+                "song": "Just a Girl",
+                "artist": "No Doubt",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -400,8 +389,8 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
+                "song": "Say My Name",
+                "artist": "Destiny's Child",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -409,8 +398,8 @@ def render_response():
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
+                "song": "Thank You",
+                "artist": "Dido",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -418,8 +407,8 @@ def render_response():
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
+                "song": "Human Nature",
+                "artist": "SWV",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -468,12 +457,12 @@ def render_response():
    
         "90s indie": {
             "song1": {
-                "song": "",
+                "song": "Harness Your Hopes",
                 "artist": "Pavement",
-                "Sign": "",
-                "Type": "",
+                "Sign": "gemini",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song2": {
@@ -735,7 +724,7 @@ def render_response():
         }
     }
 
-    taste = Era + " " + Genre
+    taste = Decade + " " + Genre
     
     count = 0
     
@@ -780,7 +769,6 @@ def render_response():
         reply[count] = y
         count = count + 1
         
-    theRecs = reply[0] + "   " + reply[1] + "   " + reply[2]+ "   " + reply[3]
     return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3], songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
             
 if __name__=="__main__":
