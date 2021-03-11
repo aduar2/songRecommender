@@ -266,39 +266,39 @@ def render_response():
         },
         "00s pop": {
             "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Poker Face",
+                "artist": "Lady Gaga",
+                "Sign": "aries",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/poker-face/1476727669?i=1476727864",
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Promiscuous (feat. Timbaland)",
+                "artist": "Nelly Furtado",
+                "Sign": "sagittarius",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/promiscuous-feat-timbaland/1442463545?i=1442463848",
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Paper Planes",
+                "artist": "M.I.A.",
+                "Sign": "cancer",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/paper-planes/296393419?i=296393515",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Umbrella (feat. JAY Z)",
+                "artist": "Rihanna",
+                "Sign": "pisces",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/umbrella-feat-jay-z/1441154435?i=1441154437",
                 "YouTube": ""
             }
         },
@@ -391,10 +391,10 @@ def render_response():
             "song2": {
                 "song": "Say My Name",
                 "artist": "Destiny's Child",
-                "Sign": "",
-                "Type": "",
+                "Sign": "leo, aquarius, virgo",
+                "Type": "fire, air, earth",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/say-my-name/266809606?i=266809802",
                 "YouTube": ""
             },
             "song3": {
@@ -409,10 +409,10 @@ def render_response():
             "song4": {
                 "song": "Human Nature",
                 "artist": "SWV",
-                "Sign": "",
-                "Type": "",
+                "Sign": "gemini, cancer, taurus",
+                "Type": "air, water, earth",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/right-here-human-nature-radio-mix/266799911?i=266800348",
                 "YouTube": ""
             }
         },
@@ -504,12 +504,12 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "Shout",
-                "artist": "Tears for Fears",
-                "Sign": "cancer, leo",
-                "Type": "water, fire",
+                "song": "If You Leave",
+                "artist": "Orchestral Manoeuvres In the Dark",
+                "Sign": "cancer, pisces",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/shout/1440825207?i=1440825216",
+                "Apple": "https://music.apple.com/us/album/if-you-leave/726172489?i=726172620",
                 "YouTube": ""
             },
             "song3": {
@@ -518,7 +518,7 @@ def render_response():
                 "Sign": "gemini",
                 "Type": "air",
                 "Spotify": "",
-                "Apple": "https://music.apple.com/us/album/karma-chameleon/724214023?i=724214046,
+                "Apple": "https://music.apple.com/us/album/karma-chameleon/724214023?i=724214046",
                 "YouTube": ""
             },
             "song4": {
@@ -542,30 +542,30 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
+                "song": "Jealous",
+                "artist": "Eyedress",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/jealous/1485913818?i=1485913824",
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
+                "song": "Age of Consent",
+                "artist": "Joy Division",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/age-of-consent/1040981945?i=1040982045",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
+                "song": "1 4 2",
+                "artist": "Inner Wave",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/1-4-2/1441533537?i=1441533773",
                 "YouTube": ""
             }
         },
