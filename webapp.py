@@ -60,7 +60,7 @@ def render_response():
                 "Sign": "sagittarius",
                 "Type": "fire",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/violent/1541025550?i=1541025569",
                 "YouTube": ""
             },
             "song4": {
@@ -89,7 +89,7 @@ def render_response():
                 "Sign": "capricorn",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/bittersweet/1485075167?i=1485075168",
                 "YouTube": ""
             },
             "song3": {
@@ -156,7 +156,7 @@ def render_response():
                 "Sign": "capricorn",
                 "Type": "earth",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/lights-single-version/1440788349?i=1440788691",
                 "YouTube": ""
             },
             "song2": {
@@ -165,7 +165,7 @@ def render_response():
                 "Sign": "sagittarius",
                 "Type": "fire",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/blank-space/1440935467?i=1440935808",
                 "YouTube": ""
             },
             "song3": {
@@ -174,7 +174,7 @@ def render_response():
                 "Sign": "sagittarius",
                 "Type": "fire",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/everybody-talks/1443506853?i=1443506997",
                 "YouTube": ""
             },
             "song4": {
@@ -183,7 +183,7 @@ def render_response():
                 "Sign": "pisces",
                 "Type": "water",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/diamonds/1443232426?i=1443232440",
                 "YouTube": ""
             }
         },
@@ -382,10 +382,10 @@ def render_response():
             "song1": {
                 "song": "Just a Girl",
                 "artist": "No Doubt",
-                "Sign": "",
-                "Type": "",
+                "Sign": "libra",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/just-a-girl/1440845400?i=1440845532",
                 "YouTube": ""
             },
             "song2": {
@@ -394,16 +394,16 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             },
             "song3": {
                 "song": "Thank You",
                 "artist": "Dido",
-                "Sign": "",
-                "Type": "",
+                "Sign": "capricorn",
+                "Type": "earth",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/thank-you/254578536?i=254579170",
                 "YouTube": ""
             },
             "song4": {
@@ -412,7 +412,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             }
         },
@@ -462,7 +462,7 @@ def render_response():
                 "Sign": "gemini",
                 "Type": "air",
                 "Spotify": "",
-                "Apple": " ",
+                "Apple": "https://music.apple.com/us/album/harness-your-hopes-b-side/295095700?i=295095778",
                 "YouTube": ""
             },
             "song2": {
@@ -495,39 +495,39 @@ def render_response():
         },
         "80s pop": {
             "song1": {
-                "song": "",
+                "song": "Material Girl",
                 "artist": "Madonna",
-                "Sign": "",
-                "Type": "",
+                "Sign": "leo",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/material-girl/80815235?i=80815209",
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
+                "song": "Shout",
                 "artist": "Tears for Fears",
-                "Sign": "",
-                "Type": "",
+                "Sign": "cancer, leo",
+                "Type": "water, fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/shout/1440825207?i=1440825216",
                 "YouTube": ""
             },
             "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Karma Chameleon",
+                "artist": "Culture Club",
+                "Sign": "gemini",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/karma-chameleon/724214023?i=724214046,
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Call Me",
+                "artist": "Blondie",
+                "Sign": "cancer",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/call-me/716231242?i=716231650",
                 "YouTube": ""
             }
         },
@@ -538,7 +538,7 @@ def render_response():
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/the-killing-moon/31740160?i=31740178",
                 "YouTube": ""
             },
             "song2": {
@@ -648,7 +648,7 @@ def render_response():
         },
 	    "70s rock": {
             "song1": {
-                "song": "'68 Picture Book",
+                "song": "Picture Book",
                 "artist": "The Kinks",
                 "Sign": "",
                 "Type": "",
@@ -657,7 +657,7 @@ def render_response():
                 "YouTube": ""
             },
             "song2": {
-                "song": "'76 Cherry Bomb",
+                "song": "Cherry Bomb",
                 "artist": "Runaways",
                 "Sign": "",
                 "Type": "",
@@ -666,7 +666,7 @@ def render_response():
                 "YouTube": " "
             },
             "song3": {
-                "song": "'67 Break On Through",
+                "song": "Break On Through",
                 "artist": "The Doors",
                 "Sign": "sagittarius",
                 "Type": "fire",
@@ -675,7 +675,7 @@ def render_response():
                 "YouTube": " "
             },
             "song4": {
-                "song": " ",
+                "song": "70s ",
                 "artist": "Queen",
                 "Sign": "",
                 "Type": "",
@@ -686,7 +686,7 @@ def render_response():
         },
         "70s pop": {
             "song1": {
-                "song": "'66 These Boots Are Made for Walkin'",
+                "song": "These Boots Are Made for Walkin'",
                 "artist": "Nancy Sinatra",
                 "Sign": "gemini",
                 "Type": "air",
@@ -695,7 +695,7 @@ def render_response():
                 "YouTube": " "
             },
             "song2": {
-                "song": "'63 Sunshine, Lollipops and Rainbows",
+                "song": "Sunshine, Lollipops and Rainbows",
                 "artist": "Lesley Gore",
                 "Sign": "aquarius",
                 "Type": "air",
@@ -704,21 +704,21 @@ def render_response():
                 "YouTube": " "
             },
             "song3": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Bennie and the Jets",
+                "artist": "Elton John",
+                "Sign": "Aries",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/bennie-and-the-jets/1440863013?i=1440863120",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
+                "song": "70s",
                 "artist": "",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": " ",
                 "YouTube": ""
             }
         }
