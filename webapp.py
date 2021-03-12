@@ -113,39 +113,39 @@ def render_response():
         },
         "current indie": {
             "song1": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Townie",
+                "artist": "Mitski",
+                "Sign": "libra",
+                "Type": "air",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/townie/1070245429?i=1070245509",
                 "YouTube": ""
             },
             "song2": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "What Do You Want from Me Tonight?",
+                "artist": "Sidney Gish",
+                "Sign": "pisces",
+                "Type": "water",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/what-do-you-want-from-me-tonight/1193369386?i=1193369399",
                 "YouTube": ""
             },
             "song3": {
                 "song": "",
                 "artist": "",
                 "Sign": "",
-                "Type": "",
+                "Type": "earth",
                 "Spotify": "",
                 "Apple": "",
                 "YouTube": ""
             },
             "song4": {
-                "song": "",
-                "artist": "",
-                "Sign": "",
-                "Type": "",
+                "song": "Fool",
+                "artist": "Frankie Cosmos",
+                "Sign": "aries",
+                "Type": "fire",
                 "Spotify": "",
-                "Apple": "",
+                "Apple": "https://music.apple.com/us/album/fool/1079006535?i=1079006538",
                 "YouTube": ""
             }
         },
@@ -229,7 +229,7 @@ def render_response():
         "2010s indie": {
             "song1": {
                 "song": "",
-                "artist": "",
+                "artist": "Grimes",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -238,7 +238,7 @@ def render_response():
             },
             "song2": {
                 "song": "",
-                "artist": "",
+                "artist": "Mac DeMarco",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
@@ -247,7 +247,7 @@ def render_response():
             },
             "song3": {
                 "song": "",
-                "artist": "",
+                "artist": "Tame Impala",
                 "Sign": "",
                 "Type": "",
                 "Spotify": "",
