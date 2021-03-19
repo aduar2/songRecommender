@@ -11,7 +11,7 @@ def main():
         songs = json.load(song_data)
 
 @app.route("/response")
-def render_response():
+def render_response(songs):
     genre = request.args['genre']
     artist = request.args['artist']
     decade = request.args['decade']
