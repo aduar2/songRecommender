@@ -7,12 +7,12 @@ def main():
         songs = json.load(song_data)
         
     @app.route("/")
-    return render_template('home.html')
+    render_template('home.html')
 
     render_response(songs)
     
     @app.route("/response")
-        return render_template('response.html')
+        render_template('response.html')
 
 #@app.route("/")
 #def render_main():
