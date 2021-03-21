@@ -7,16 +7,14 @@ def main():
         songs = json.load(song_data)
         
     @app.route("/")
-    render_template('home.html')
-
-    render_response(songs)
+    render_main()
     
     @app.route("/response")
-        render_template('response.html')
+    render_response(songs)
 
 #@app.route("/")
-#def render_main():
-    #return render_template('home.html')
+def render_main():
+    return render_template('home.html')
 
 #def main():
     #with open('songs.json') as song_data:
