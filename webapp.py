@@ -7,7 +7,7 @@ def main():
         songs = json.load(song_data)
         
     @app.route("/")
-    render_main()
+    render_main
     
     @app.route("/response")
     render_response(songs)
