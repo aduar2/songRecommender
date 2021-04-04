@@ -8,7 +8,7 @@ def main():
         
 @app.route("/")
     render_template('home.html')
-    
+
 @app.route("/response")
     render_response(songs)
 
