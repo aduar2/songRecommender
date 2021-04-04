@@ -6,10 +6,10 @@ def main():
     with open('songs.json') as song_data:
         songs = json.load(song_data)
         
-    @app.route("/")
+@app.route("/")
     render_template('home.html')
     
-    @app.route("/response")
+@app.route("/response")
     render_response(songs)
 
 #@app.route("/")
