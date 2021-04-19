@@ -2,26 +2,14 @@ from flask import Flask, url_for, render_template, request, json
 
 app = Flask(__name__) #__name__ = "__main__" if this is the file that was run.  Otherwise, it is the name of the file (ex. webapp)
 
+@app.route("/")
 def main():
     with open('songs.json') as song_data:
         songs = json.load(song_data)
-        
-@app.route("/")
-	return render_template('home.html')
+    return render_template('home.html')
 
 @app.route("/response")
-	render_response(songs)
-
-#@app.route("/")
-#def render_main():
-    #return render_template('home.html')
-
-#def main():
-    #with open('songs.json') as song_data:
-        #songs = json.load(song_data)
-
-#@app.route("/response")
-def render_response(songs):
+def getSongs():
     genre = request.args['genre']
     artist = request.args['artist']
     decade = request.args['decade']
@@ -96,6 +84,8 @@ def render_response(songs):
         count = count + 1
         
     return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3], songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
-            
+	
+	
+
 if __name__=="__main__":
     app.run(debug=False, port=54321)
