@@ -10,8 +10,6 @@ def getHome():
 
 @app.route("/response")
 def getResponse():
-    with open('songs.json') as song_data:
-        songs = json.load(song_data)
         
     genre = request.args['genre']
     artist = request.args['artist']
@@ -48,9 +46,12 @@ def getResponse():
     reply = ["0", "1", "2", "3"]
     urls = ["0", "1", "2", "3"]
     
+    with open('songs.json') as song_data:
+        songs = json.load(song_data)
+    
     for x in songs[taste]:
-        songRec = songs[taste][x]["song"]
-        artistRec = songs[taste][x]["artist"]
+        songRec = [x]["song"]
+        artistRec = [x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
         if artistRec.casefold() == Artist:
