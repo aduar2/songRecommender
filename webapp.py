@@ -50,8 +50,8 @@ def getResponse():
         songs = json.load(song_data)
     
     for x in songs[0][taste]:
-        songRec = [x]["song"]
-        artistRec = [x]["artist"]
+        songRec = [x][0]["song"]
+        artistRec = [x][0]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
         if artistRec.casefold() == Artist:
