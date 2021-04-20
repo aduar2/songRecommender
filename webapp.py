@@ -51,7 +51,7 @@ def getSongs():
         artistRec = songs[taste][x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
-        if artistRec.lower() == Artist:
+        if artistRec.casefold() == Artist:
             y = "Here is a song by an artist you already like: " + songRec + " by " + artistRec
         else:
             if element == "none":
