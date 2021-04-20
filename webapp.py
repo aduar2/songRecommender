@@ -49,7 +49,7 @@ def getResponse():
     with open('songs.json') as song_data:
         songs = json.load(song_data)
     
-    for x in songs[taste]:
+    for x in songs[0][taste]:
         songRec = [x]["song"]
         artistRec = [x]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
