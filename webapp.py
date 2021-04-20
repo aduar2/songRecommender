@@ -3,11 +3,11 @@ from flask import Flask, url_for, render_template, request, json
 app = Flask(__name__) #__name__ = "__main__" if this is the file that was run.  Otherwise, it is the name of the file (ex. webapp)
 
 @app.route("/")
-def main():
+def getHome():
     return render_template('home.html')
 
 @app.route("/response")
-def getSongs():
+def getResponse():
     with open('songs.json') as song_data:
         songs = json.load(song_data)
         
