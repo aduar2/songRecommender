@@ -39,7 +39,7 @@ def getResponse():
     #set variables from input. use sring methods to rid of whitespace and capitals :)
     
 
-    taste = decade + " " + genre
+    taste = decade + ' ' + genre
     
     count = 0
     
