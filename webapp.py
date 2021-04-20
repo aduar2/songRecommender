@@ -4,12 +4,13 @@ app = Flask(__name__) #__name__ = "__main__" if this is the file that was run.  
 
 @app.route("/")
 def main():
-    with open('songs.json') as song_data:
-        songs = json.load(song_data)
     return render_template('home.html')
 
 @app.route("/response")
 def getSongs():
+    with open('songs.json') as song_data:
+        songs = json.load(song_data)
+        
     genre = request.args['genre']
     artist = request.args['artist']
     decade = request.args['decade']
