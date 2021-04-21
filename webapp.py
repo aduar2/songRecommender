@@ -53,7 +53,7 @@ def getResponse():
     
     for eachSong in options:
         songRec = [eachSong]["song"]
-	return render_template('response.html', response1 = eachSong)
+    return render_template('response.html', response1 = eachSong, response2 = songRec)
         artistRec = [eachSong]["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
