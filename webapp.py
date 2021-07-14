@@ -52,7 +52,7 @@ def getResponse():
     options = songs[0][taste]
     
     for eachSong in options:
-        songRec = eachSong["song"]
+        songRec = eachSong[0]
         artistRec = eachSong["artist"]
         basicReply = "You might like " + songRec + " by " + artistRec
         
