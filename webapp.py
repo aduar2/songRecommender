@@ -80,12 +80,12 @@ def getResponse():
                 else:
                     y = basicReply
                     
-            if platform == "Spotify":
-                urls[count] = eachSong[4]
-            elif platform == "Apple":
-                urls[count] = eachSong[5]
-            else:
-                urls[count] = eachSong[6]
+            #if platform == "Spotify":
+            #    urls[count] = eachSong[4]
+            #elif platform == "Apple":
+            #    urls[count] = eachSong[5]
+            #else:
+            #    urls[count] = eachSong[6]
                     
         reply[count] = y
         count = count + 1
