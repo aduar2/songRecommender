@@ -53,7 +53,7 @@ def getResponse():
     
     for eachSong in options:
         songRec = eachSong[0]
-        artistRec = eachSong["artist"]
+        artistRec = eachSong[1]
         basicReply = "You might like " + songRec + " by " + artistRec
         
         if artistRec.casefold() == Artist:
