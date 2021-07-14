@@ -90,7 +90,7 @@ def getResponse():
         reply[count] = y
         count = count + 1
         
-    return render_template('response.html', response1 = options, response2 = eachSong, response3 = reply, response4 = reply[3])
+    return render_template('response.html', response1 = options, response2 = eachSong, response3 = reply, response4 = reply[0])
     #return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3])#, songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
 	
 
