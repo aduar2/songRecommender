@@ -61,7 +61,7 @@ def getResponse():
         else:
             if element == "none":
                 y = basicReply
-            else:	
+            else:
 		artistElem = eachSong[2]
 		artistElem = eachSong[3]
 		
