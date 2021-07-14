@@ -56,7 +56,7 @@ def getResponse():
 	#for skyscraper in skyscrapers:
         #year = skyscraper["status"]["completed"]["year"]
 	
-    for song in songs:
+    for song in songs[taste]:
         songRec = song["song"]
         artistRec = song["artist"]
 	
