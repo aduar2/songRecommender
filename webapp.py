@@ -61,9 +61,10 @@ def getResponse():
         else:
             if element == "none":
                 y = basicReply
-            else:
-                artistElem = songs[taste][x][3]
-                artistSign = songs[taste][x][2]
+            else:	
+				artistElem = eachSong[2]
+				artistElem = eachSong[3]
+		
                 if artistElem.find(element) >= 0:
                     if artistSign.find(Sign) >= 0:
                         #send something to the result page. this is same sign
@@ -79,12 +80,12 @@ def getResponse():
                 else:
                     y = basicReply
                     
-        if platform == "Spotify":
-            urls[count] = songs[taste][x][4]
-        elif platform == "Apple":
-            urls[count] = songs[taste][x][5]
-        else:
-            urls[count] = songs[taste][x][6]
+        	if platform == "Spotify":
+            	urls[count] = eachSong
+        	elif platform == "Apple":
+            	urls[count] = songs[taste][x][5]
+        	else:
+            	urls[count] = songs[taste][x][6]
                     
         reply[count] = y
         count = count + 1
