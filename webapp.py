@@ -51,9 +51,17 @@ def getResponse():
         
     options = songs[0][taste]
     
-    for eachSong in options:
-        songRec = eachSong[0]
-        artistRec = eachSong[1]
+    #for eachSong in options:
+	
+	#for skyscraper in skyscrapers:
+        #year = skyscraper["status"]["completed"]["year"]
+	
+    for song in Songs:
+        songRec = song["song"]
+        artistRec = song["artist"]
+	
+        #songRec = eachSong[0]
+        #artistRec = eachSong[1]
         basicReply = "You might like " + songRec + " by " + artistRec
         
         if artistRec.casefold() == Artist:
@@ -62,8 +70,10 @@ def getResponse():
             if element == "none":
                 y = basicReply
             else:
-                artistElem = eachSong[2]
-                artistElem = eachSong[3]
+                artistElem = song["Type"]
+                artistSign = song["Sign"]
+                #artistElem = eachSong[2]
+                #artistElem = eachSong[3]
 		
                 if artistElem.find(element) >= 0:
                     if artistSign.find(Sign) >= 0:
