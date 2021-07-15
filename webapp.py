@@ -49,7 +49,7 @@ def getResponse():
     with open('songs.json') as song_data:
         songs = json.load(song_data)
         
-    options = songs[0][taste]
+    options = songs[taste]
     
     #for eachSong in options:
 	
@@ -57,8 +57,8 @@ def getResponse():
         #year = skyscraper["status"]["completed"]["year"]
 	
     for song in songs[0][taste]:
-        songRec = song["song"]
-        artistRec = song["artist"]
+        songRec = song[0]["song"]
+        artistRec = song[0]["artist"]
 	
         #songRec = eachSong[0]
         #artistRec = eachSong[1]
@@ -100,7 +100,7 @@ def getResponse():
         reply[count] = y
         count = count + 1
         
-    return render_template('response.html', response1 = options, response2 = eachSong, response3 = reply, response4 = reply[0])
+    return render_template('response.html', response1 = song, response2 = songs[0], response3 = songs[0][taste], response4 = reply[0])
     #return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3])#, songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
 	
 
