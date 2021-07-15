@@ -38,22 +38,24 @@ def getResponse():
 	
     #set variables from input. use sring methods to rid of whitespace and capitals :)
     
-
     taste = Decade + " " + Genre
     
     count = 0
     
-    reply = ["0", "1", "2", "3"]
     urls = ["0", "1", "2", "3"]
     
     with open('songs.json') as song_data:
         songs = json.load(song_data)
-	
-
-    for song in songs:
-        reply[count] = song
+        
+    replies = []
     
-    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = songs[0][taste], response4 = songs)
+    with open('songs.json') as song_data:
+        songs = json.load(song_data)
+    for song in songs:
+        reply = song["90s rock"]["song1"]["song"]
+        replies.append(str(reply))
+    
+    return render_template('response.html', response1 = replies[0], response2 = replies[1], response3 = replies[2], response4 = replies[3])
 	
 
 if __name__=="__main__":
