@@ -49,7 +49,7 @@ def getResponse():
     with open('songs.json') as song_data:
         songs = json.load(song_data)
         
-    options = songs[taste]
+    #options = songs[taste]
     
     #for eachSong in options:
 	
