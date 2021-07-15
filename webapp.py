@@ -48,8 +48,12 @@ def getResponse():
     
     with open('songs.json') as song_data:
         songs = json.load(song_data)
+	
+
+    for song in songs:
+        reply[count] = song
     
-    return render_template('response.html', response1 = song, response2 = songs[0], response3 = songs[0][taste])
+    return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = songs[0][taste], response4 = songs)
 	
 
 if __name__=="__main__":
