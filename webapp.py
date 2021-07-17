@@ -180,22 +180,11 @@ def getResponse():
         replies.append(str(y)) #[3]
                    
            
-        if platform == "Spotify":
-            urls[0] = song[taste]["song1"]["Spotify"]
-            urls[1] = song[taste]["song2"]["Spotify"]
-            urls[2] = song[taste]["song3"]["Spotify"]
-            urls[3] = song[taste]["song4"]["Spotify"]
+        urls[0] = song[taste]["song1"][platform]
+        urls[1] = song[taste]["song2"][platform]
+        urls[2] = song[taste]["song3"][platform]
+        urls[3] = song[taste]["song4"][platform]
             
-         elif platform == "Apple":
-            urls[0] = song[taste]["song1"]["Apple"]
-            urls[1] = song[taste]["song2"]["Apple"]
-            urls[2] = song[taste]["song3"]["Apple"]
-            urls[3] = song[taste]["song4"]["Apple"]
-         else:
-            urls[0] = song[taste]["song1"]["YouTube"]
-            urls[1] = song[taste]["song2"]["YouTube"]
-            urls[2] = song[taste]["song3"]["YouTube"]
-            urls[3] = song[taste]["song4"]["YouTube"]
             
     return render_template('response.html', response1 = reply[0], response2 = reply[1], response3 = reply[2], response4 = reply[3]), songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
 	
