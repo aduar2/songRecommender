@@ -57,8 +57,8 @@ def getResponse():
         replies.append(str(reply)) #[1]
         songRec = song[taste]["song1"]["song"]
         artistRec = song[taste]["song1"]["artist"]
-        replies.append[songRec] #[2]
-        replies.append[artistRec]#[3]
+        replies.append(str(songRec)) #[2]
+        replies.append(str(artistRec))#[3]
     
     return render_template('response.html', response1 = replies[2], response2 = replies[3], response3 = taste, response4 = replies)
 	
