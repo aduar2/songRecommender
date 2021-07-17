@@ -138,7 +138,7 @@ def getResponse():
                 if artistElem3.find(element) >= 0:
                     if artistSign3.find(Sign) >= 0:
                         #send something to the result page. this is same sign
-                        if artistSign3 == "aquarius" or artistSign == "aries":
+                        if artistSign3 == "aquarius" or artistSign3 == "aries":
                             y = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec3 + " by " + artistRec3
                         else:
                             y = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec3 + " by " + artistRec3
@@ -165,7 +165,7 @@ def getResponse():
                 if artistElem4.find(element) >= 0:
                     if artistSign4.find(Sign) >= 0:
                         #send something to the result page. this is same sign
-                        if artistSign4 == "aquarius" or artistSign == "aries":
+                        if artistSign4 == "aquarius" or artistSign4 == "aries":
                             y = "You might like this song, which is by an artist who is also an " + sign + ": "+ songRec4 + " by " + artistRec4
                         else:
                             y = "You might like this song, which is by an artist who is also a " + sign + ": "+ songRec4 + " by " + artistRec4
