@@ -54,8 +54,10 @@ def getResponse():
     for song in songs:
         reply = song["90s rock"]["song1"]["song"]
         replies.append(str(reply))
+        reply = song["90s rock"]["song1"]["artist"]
+        replies.append(str(reply))
     
-    return render_template('response.html', response1 = replies[0], response3 = taste, response4 = replies)
+    return render_template('response.html', response1 = replies[0], response2 = replies[1], response3 = taste, response4 = replies)
 	
 
 if __name__=="__main__":
