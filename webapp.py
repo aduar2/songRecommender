@@ -121,7 +121,7 @@ def getResponse():
                 else:
                     y = basicReply2
                     
-                    replies.append(str(y)) #[1]
+        replies.append(str(y)) #[1]
                    
                 
         if artistRec3.casefold() == Artist:
@@ -183,8 +183,8 @@ def getResponse():
         urls.append(str(song[taste]["song3"][platform]))#[2]
         urls.append(str(song[taste]["song4"][platform]))#[3]
             
-            
-    return render_template('response.html', response1 = replies[0], response2 = replies[1], response3 = replies[2], response4 = songRec1 + artistRec1 + songRec2 + artistRec2 + songRec3 + artistRec3 + songRec4 + artistRec4, songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
+            #songRec1 + artistRec1 + songRec2 + artistRec2 + songRec3 + artistRec3 + songRec4 + artistRec4
+    return render_template('response.html', response1 = replies[0], response2 = replies[1], response3 = replies[2], response4 = replies[3], songLink1 = urls[0], songLink2 = urls[1], songLink3 = urls[2], songLink4 = urls[3])
 
 if __name__=="__main__":
     app.run(debug=False, port=54321)
