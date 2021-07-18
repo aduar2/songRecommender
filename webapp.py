@@ -101,7 +101,7 @@ def getResponse():
             y = "Here is a song by an artist you already like: " + songRec2 + " by " + artistRec2
         else:
             if element == "none":
-                y = basicReply
+                y = basicReply2
             else:
                 artistElem2 = song[taste]["song2"]["Type"]
                 artistSign2 = song[taste]["song2"]["Sign"]
